@@ -9,3 +9,7 @@
 .my-col{
     border: 5px solid red;
 }
+
+.img-responsive{
+    width: 100%;
+}
