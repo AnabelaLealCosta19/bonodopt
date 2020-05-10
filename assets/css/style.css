@@ -1,4 +1,8 @@
+body{
+    padding-top: 3em;
+}
 
+/*
 .container{
     border: 5px solid green;
 }
@@ -10,7 +14,7 @@
 .my-col{
     border: 5px solid red;
 }
-
+*/
 
 .img-responsive{
     width: 100%;
