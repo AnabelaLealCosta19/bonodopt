@@ -128,6 +128,7 @@ button:focus {
 
 .footer-components p, .footer-components a  {
     color: white;
+    font-size: 0.95rem;
     padding: 0;
 }
 
@@ -165,6 +166,17 @@ button:focus {
 }
 
 /* /.Footer */
+
+
+
+/* Modal */
+
+#modal-phone .modal-body {
+    text-align: center;
+}
+
+
+/* /.Modal */
 
 
 
@@ -284,12 +296,6 @@ button:focus {
 
 .home-gallery-container a, .home-gallery-container i {
     color: rgb(22, 160, 11);
-}
-
-.gallery-link:hover {
-    -webkit-transform: scale(1.2);  
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
 }
 
 /* /.Link gallery (index)*/

@@ -32,7 +32,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            <!-- Navbar content -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-2">
@@ -51,6 +51,7 @@
                         <a class="nav-link text-uppercase" id="nav-link-adopt" href="#">Adopt Now</a>
                     </li>
                 </ul>
+                <!-- /.Navbar content -->
                 <a href="#" class="btn btn-success btn-green btn-navbar my-2 my-sm-0 text-uppercase d-none d-lg-inline">Adopt Now</a>
             </div>
         </nav>
@@ -127,7 +128,7 @@
         <!-- Intro program -->
         <section class="intro-program-container container text-center">
             <div class="row">
-                <div class="col mt-5 mb-3 pt-5">
+                <div class="col mt-5 mb-2 pt-5 pt-md-0 pt-lg-3">
                     <h2 class="text-uppercase">What do we do?</h2>
                 </div>
             </div>
@@ -214,11 +215,12 @@
                 <div class="footer-components col-12 col-lg-4 my-2">
                     <p id="first-footer-component">Got a question? <br class="d-md-none"> 
                     Get in touch!<br class="d-md-none"> 
-                    <a href="#" id="envelope" class="contact">
+                    <!-- Connect modal to link | source: stackoverflow (URL  https://stackoverflow.com/questions/22565247/bootstrap-modal-link) -->
+                    <a href="#modal-message" id="envelope" class="contact" data-toggle="modal" data-target="#modal-message"> 
                         <i class="far fa-envelope" aria-hidden="true"></i>
                         <span class="sr-only">Send us a message</span>
                     </a> 
-                    <a href="#" class="contact">
+                    <a href="#modal-phone" class="contact" data-toggle="modal" data-target="#modal-phone">
                         <i class="fas fa-phone" aria-hidden="true"></i>
                         <span class="sr-only">Call us</span>
                     </a></p>
@@ -280,11 +282,76 @@
     </footer>
     <!-- /.Footer -->
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!-- /. Bootstrap JS -->
+
+
+<!-- Modal message -->
+<div class="modal fade" id="modal-message" tabindex="-1" role="dialog" aria-labelledby="message-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="message-title">Drop us a message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>We're happy to help and answer any questions you have. Fill out the form and we'll be in touch as soon as possible. </p>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" name="email" id="email" required aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea rows="5" class="form-control" name="message" id="message" required></textarea>
+                    </div>
+                    </form>
+            </div>
+            <!-- Submission not possible since project was created with HTML/CSS only: data-dismiss has been used to create impression that form as been submitted for user -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success btn-green mx-auto" data-dismiss="modal">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- /.Modal message -->
+
+
+
+<!-- Modal phone -->
+<div class="modal fade" id="modal-phone" tabindex="-1" role="dialog" aria-labelledby="phone-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="phone-title">Give us a call</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Prefer to talk with us directly? So do we!</p>
+                <p>Call: 1-800-123-4567 <br>
+                (9am - 5pm EST/EDT)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Modal phone -->
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- /. Bootstrap JS -->
 
 </body>
 </html>
