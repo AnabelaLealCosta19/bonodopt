@@ -74,7 +74,7 @@ body{
 /* Reusable classes */
 
 .horizontal-line{
-    background-color: rgb(21, 140, 12);
+    background-color: rgb(29,36,42);
     height: 2.5px;
     width: 150px;
     border-radius: 25%;
@@ -186,15 +186,36 @@ button:focus {
     font-size: 3rem;
 } 
 
-
 .program-box p {
      font-size: 1.25rem;
      margin: 0;
 }
 
-
-
 /* /.Intro program (index)*/
+
+
+/* Call to action (index)*/
+
+.call-to-action-link i {
+    font-size: 2.5rem;
+    color: rgb(29,36,42);
+    padding: 5px;
+} 
+
+.call-to-action-link  a {
+     font-size: 1.25rem;
+     font-weight: 500;
+     color:rgb(29,36,42);
+     text-decoration: none;
+}
+
+.call-to-action-link:hover {
+    -webkit-transform: scale(1.2);  /* Increase size on hover | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/14073498/how-do-i-create-a-change-in-font-size-on-hover-without-realigning-other-text) */
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/* /.Call to action (index)*/
 
 
 /* Media queries */
@@ -212,6 +233,12 @@ button:focus {
     }
     .nav-link {
         font-size: 1.5rem;
+    }
+    .call-to-action-link i {
+        font-size: 3rem;
+    }
+    .call-to-action-link  a {
+     font-size: 1.5rem;
     }
 }
 
