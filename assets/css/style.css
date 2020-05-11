@@ -53,7 +53,6 @@ body{
     color: #fff;
     background-color: rgb(21, 140, 12);
     border-color: rgb(21, 140, 12);
-    border-width: thick;
 }
 
 .btn-outline-success{
@@ -202,7 +201,7 @@ button:focus {
 
 @media only screen and (min-width: 650px) {
     .callout-container{
-        background: url("/assets/images/hero-image-opt.jpeg") no-repeat center center fixed; 
+        background: url("/assets/images/hero-image-tablet.jpg") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -213,6 +212,16 @@ button:focus {
     }
     .nav-link {
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .callout-container{
+        background: url("/assets/images/hero-image-opt.jpeg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 
