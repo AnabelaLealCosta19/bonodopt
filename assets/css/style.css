@@ -170,6 +170,7 @@ button:focus {
 /* /.Callout (index)*/
 
 
+
 /* Intro program (index)*/
 
 .program-box{
@@ -194,6 +195,7 @@ button:focus {
 /* /.Intro program (index)*/
 
 
+
 /* Call to action (index)*/
 
 .call-to-action-link i {
@@ -216,6 +218,29 @@ button:focus {
 }
 
 /* /.Call to action (index)*/
+
+
+
+/* Link gallery (index)*/
+
+.home-gallery p, .home-gallery a {
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0;
+}
+
+.home-gallery a, .home-gallery i {
+    color: rgb(16, 115, 8);
+}
+
+.gallery-link:hover {
+    -webkit-transform: scale(1.2);  
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/* /.Link gallery (index)*/
+
 
 
 /* Media queries */
