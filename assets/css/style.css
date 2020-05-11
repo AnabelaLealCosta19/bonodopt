@@ -184,8 +184,12 @@ button:focus {
 } 
 
 #box-question{
-    font-size: 3rem;
+    opacity: 0.8;
 } 
+
+#box-question i {
+    font-size: 3rem;
+}
 
 .program-box p {
      font-size: 1.25rem;
