@@ -30,8 +30,12 @@ body{
     color: white;  
 }
 
-.bg-color{
+.bg-grey{
     background-color: rgba(29,36,42,0.7);
+}
+
+.bg-green{
+    background-color: rgb(16, 115, 8);
 }
 
 .btn-green {
@@ -43,13 +47,32 @@ body{
 
 
 
-/* Reusable classes */
+/* Buttons */
 
 .btn-success:hover {
     color: #fff;
     background-color: rgb(21, 140, 12);
     border-color: rgb(21, 140, 12);
+    border-width: thick;
 }
+
+.btn-outline-success{
+    background-color: white;
+    color: rgb(21, 140, 12);
+    border-color: rgb(21, 140, 12);
+}
+
+.btn-outline-success:hover{
+    color: white;
+    background-color:rgb(16, 115, 8);
+    border-color: rgb(16, 115, 8);
+}
+
+/* ./Buttons */
+
+
+
+/* Reusable classes */
 
 .horizontal-line{
     background-color: rgb(21, 140, 12);
@@ -93,11 +116,11 @@ button:focus {
     outline: none;
 }
 
-/* ./Navbar */
+/* ./ Navbar */
 
 
 
-/* Callout */
+/* Callout (index) */
 
 .callout-container{
     height: 100vh;
@@ -145,8 +168,34 @@ button:focus {
     -o-text-stroke: 2.5px rgba(29,36,42,0.9);
 }
 
-/* /.Callout */
+/* /.Callout (index)*/
 
+
+/* Intro program (index)*/
+
+.program-box{
+    color: white;
+    border: 2px solid white;
+    padding: 50px 10px;
+}
+
+.program-box i {
+    font-size: 2rem;
+} 
+
+#box-question{
+    font-size: 3rem;
+} 
+
+
+.program-box p {
+     font-size: 1.25rem;
+     margin: 0;
+}
+
+
+
+/* /.Intro program (index)*/
 
 
 /* Media queries */
