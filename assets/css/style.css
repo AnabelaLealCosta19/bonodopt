@@ -43,7 +43,7 @@ body{
 
 
 
-/* Buttons */
+/* Reusable classes */
 
 .btn-success:hover {
     color: #fff;
@@ -51,7 +51,16 @@ body{
     border-color: rgb(21, 140, 12);
 }
 
-/* ./Buttons */
+.horizontal-line{
+    background-color: rgb(21, 140, 12);
+    height: 2.5px;
+    width: 150px;
+    border-radius: 25%;
+    display: inline-block;
+    box-shadow: 1px 1px rgba(29,36,42,0.7);
+}
+
+/* ./Reusable classes */
 
 
 
