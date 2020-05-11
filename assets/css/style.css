@@ -13,6 +13,7 @@
 */
 
 
+
 /* Body */
 
 body{
@@ -20,6 +21,7 @@ body{
 }
 
 /* ./Body */
+
 
 
 /* Colors */
@@ -32,15 +34,16 @@ body{
     background-color: rgba(29,36,42,0.7);
 }
 
-/* ./Colors */
-
-
-/* Buttons */
-
 .btn-green {
     background-color:rgb(16, 115, 8);
     border-color: rgb(16, 115, 8);
 }
+
+/* ./Colors */
+
+
+
+/* Buttons */
 
 .btn-success:hover {
     color: #fff;
@@ -49,6 +52,40 @@ body{
 }
 
 /* ./Buttons */
+
+
+
+/* Navbar */
+
+.navbar{
+    background-color: rgba(29,36,42,0.9);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+#nav-link-adopt {
+    color: rgb(22, 160, 11);
+    border-color: white;
+    font-weight: 700;
+}
+
+.btn-navbar{
+    font-size: 1.25rem;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* ./Navbar */
+
 
 
 /* Callout */
@@ -71,11 +108,11 @@ body{
 
 .callout-content h1 {
     font-weight: 300;
-    font-size: calc(1.5em + 4vw); /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    font-size: calc(1.5rem + 4vw); /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
 }
 
 .callout-content p, .btn-callout {
-    font-size: calc(0.75em + 1vw);
+    font-size: calc(0.75rem + 1vw);
 }
 
 .callout-content span {
@@ -112,6 +149,12 @@ body{
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .nav-link {
+        font-size: 1.5rem;
     }
 }
 
