@@ -323,7 +323,7 @@ button:focus {
     margin-bottom: 1rem;
 }
 
-.general-container h3, .six-reasons-container h3 {
+.general-container h3, .six-reasons-container h3, .six-reasons-container h4 {
     font-weight: 400;
 }
 
@@ -354,6 +354,7 @@ button:focus {
 
 .card-header .btn-link i {
     width: 2rem;
+    font-size: 1.25rem;
 }
 
 .card-body img {
@@ -364,17 +365,27 @@ button:focus {
     margin-top: 2.5rem;
 }
 
+.one-reason {
+    padding: 1rem;
+}
+
+.one-reason i {
+    width: 2.5rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
 /* /.6 reasons why (bonobos)*/
 
 
 
-/* 6 reasons why (bonobos)*/
+/* Quote (bonobos)*/
 
 .quote-container {
     margin: 2rem 0;
 }
 
-/* /.6 reasons why (bonobos)*/
+/* /.Quote (bonobos)*/
 
 
 
