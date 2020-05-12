@@ -1,4 +1,4 @@
-/* TESTING
+/* TESTING*/
 .container{
     border: 5px solid green;
 }
@@ -10,14 +10,19 @@
 .my-col{
     border: 5px solid red;
 }
-*/
+
 
 
 
 /* Body */
 
 body{
+    padding-top: 3rem;
     font-family: 'Raleway', sans-serif;
+}
+
+#home{
+    padding-top: 0;;
 }
 
 /* ./Body */
@@ -301,9 +306,21 @@ button:focus {
 
 
 
+/* General (bonobos)*/
+
+.general-container .row .col h2 {
+    margin-top: 5rem;
+}
+
+/* /.General (bonobos)*/
+
+
 /* Media queries */
 
 @media only screen and (min-width: 650px) {
+    body{
+        padding-top: 5rem;
+    }
     .callout-container{
         background: url("/assets/images/hero-image-tablet.jpg") no-repeat center center fixed; 
         -webkit-background-size: cover;
