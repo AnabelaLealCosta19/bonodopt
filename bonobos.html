@@ -87,6 +87,29 @@
         </section>
         <!-- /.General -->
 
+        
+        <!-- 
+        To ensure that the following content is displayed nicely across all devices, it was organized as follows: 
+
+        1. Mobile (xs+): 
+        - collapse1: content1 + image1 (vertical)
+        - ...
+        - collapse6: content6 + image6 (vertical)
+
+        2. Tablet (md+)
+        - row1: content1 + image1 (horizontal)
+        - ...
+        - row6: content6 + image6 (horizontal)
+
+        3. Desktop (lg+)
+        - row1: content1 + content2 (horizontal)
+        - row2: image1 + image2 (horizontal)
+        - ...
+        - row5: content5 + content6 (horizontal)
+        - row6: image5 + image6 (horizontal)
+        
+        -->
+
         <!-- 6 reasons why -->
         <section class="six-reasons-container container">
             <div class="row">
@@ -101,7 +124,7 @@
                 </div>
                 <div class="my-col col-12">
                     <div class="accordion" id="six-reasons-collapse">
-                        <!-- Our closest living relative -->
+                        <!-- Mob: Our closest living relative -->
                         <div class="card">
                             <div class="card-header" id="closest-relative-header">
                                 <h4 class="mb-0">
@@ -118,8 +141,8 @@
                             </div>
                             </div>
                         </div>
-                        <!-- /.Our closest living relative -->
-                        <!-- Females are in charge -->
+                        <!-- /.Mob: Our closest living relative -->
+                        <!-- Mob: Females are in charge -->
                         <div class="card">
                             <div class="card-header" id="females-in-charge-header">
                                 <h4 class="mb-0">
@@ -135,8 +158,8 @@
                             </div>
                             </div>
                         </div>
-                        <!-- /.Females are in charge -->
-                        <!-- Tribe of peacemakers -->
+                        <!-- /.Mob: Females are in charge -->
+                        <!-- Mob: Tribe of peacemakers -->
                         <div class="card">
                             <div class="card-header" id="peacemakers-header">
                                 <h4 class="mb-0">
@@ -152,8 +175,8 @@
                             </div>
                             </div>
                         </div>
-                        <!-- /.Tribe of peacemakers -->
-                        <!-- Social beings -->
+                        <!-- /.Mob: Tribe of peacemakers -->
+                        <!-- Mob: Social beings -->
                         <div class="card">
                             <div class="card-header" id="social-beings-header">
                                 <h4 class="mb-0">
@@ -170,8 +193,8 @@
                             </div>
                             </div>
                         </div>
-                        <!-- /.Social beings -->
-                        <!-- Bonobo handshake -->
+                        <!-- /.Mob: Social beings -->
+                        <!-- Mob: Bonobo handshake -->
                         <div class="card">
                             <div class="card-header" id="bonobo-handshake-header">
                                 <h4 class="mb-0">
@@ -187,8 +210,8 @@
                             </div>
                             </div>
                         </div>
-                        <!-- /.Bonobo handshake -->
-                        <!-- Highly endangered -->
+                        <!-- /.Mob: Bonobo handshake -->
+                        <!-- Mob: Highly endangered -->
                         <div class="card">
                             <div class="card-header" id="endangered-header">
                                 <h4 class="mb-0">
@@ -204,12 +227,127 @@
                             </div>
                             </div>
                         </div>
-                        <!-- /.Highly endangered -->
+                        <!-- /.Mob: Highly endangered -->
                     </div>
                 </div>
             </div>
             <!-- /.Mobile version -->
-
+            <div class="row">
+                <!-- Our closest living relative -->
+                <div class="my-col col-md-12 col-lg-6 d-none d-md-block">
+                    <div class="row">
+                        <div class="my-col col-md-8 col-lg-12">
+                            <h4><i class="fas fa-fingerprint" aria-hidden="true"></i> Our closest living relative</h4>
+                            <p>We share <strong>98.7%</strong> of our DNA with bonobos – this means that bonobos (and chimpanzees) are our closest living relatives. This leads to many similarities between bonobos and humans, but also some key differences.</p>
+                            <p><u>Fun fact:</u> Humans are able to easily understand their facial expressions and some of their natural hand gestures, such as their invitation to play.</p> 
+                        </div>
+                        <div class="my-col col-md-4 d-lg-none my-auto">
+                            <img src="assets/images/our-closest-relative-opt-crop.jpg" alt="Bonobo inviting to play" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Our closest living relative -->
+                <!-- Females are in charge -->
+                <div class="my-col col-md-12 col-lg-6 d-none d-md-block">
+                    <div class="row">
+                        <div class="my-col col-md-8 col-lg-12">
+                            <h4><i class="fas fa-venus" aria-hidden="true"></i> Females are in charge</h4>
+                            <p>The dominant bonobo in a group is never a male, which is the main reason that bonobos are so peaceful. If any male in the group becomes aggressive, the females join forces and prevent him from hurting anyone. This is very unusual in the animal kingdom. Over time, bonobos have become much less aggressive than their relatives, including humans.</p>
+                        </div>
+                        <div class="my-col col-md-4 d-lg-none my-auto">
+                            <img src="assets/images/females-are-in-charge-opt-crop.jpg" alt="Bonobo female" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Females are in charge -->
+            </div>
+            <!-- Lg: Images from 'Our closest living relative' and 'Females are in charge' -->
+            <div class="row">
+                <div class="my-col col-lg-6 d-none d-lg-block">
+                    <img src="assets/images/our-closest-relative-opt-crop.jpg" alt="Bonobo inviting to play" class="img-fluid rounded-circle"> 
+                </div>
+                <div class="my-col col-lg-6 d-none d-lg-block">
+                    <img src="assets/images/females-are-in-charge-opt-crop.jpg" alt="Bonobo female" class="img-fluid rounded-circle">
+                </div>
+            </div>
+            <!-- /.Lg: Images from 'Our closest living relative' and 'Females are in charge' -->
+            <!-- Tribe of peacemakers -->
+            <div class="row">
+                <div class="my-col col-md-12 col-lg-6 d-none d-md-block">
+                    <div class="row">
+                        <div class="my-col col-md-8 col-lg-12">
+                            <h4><i class="fas fa-peace" aria-hidden="true"></i> Tribe of Peacemakers</h4>
+                            <p>In addition to the diffusion of conflicts through the females in a group, bonobos have evolved to avoid fighting. Research shows that in a situation that had the potential to cause conflict (two individuals were in competition over food), chimpanzees had an increase in testosterone, which is related to competitiveness, and bonobos had an increase in cortisol, which is related to stress. This stress response leads bonobos to seek social reassurance and they hug and share instead of fighting.</p>
+                        </div>
+                        <div class="my-col col-md-4 d-lg-none my-auto">
+                           <img src="assets/images/tribe-of-peacemakers-opt-crop.jpg" alt="Bonobos sharing food" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Tribe of peacemakers -->
+                <!-- Social beings -->
+                <div class="my-col col-md-12 col-lg-6 d-none d-md-block">
+                    <div class="row">
+                        <div class="my-col col-md-8 col-lg-12">
+                            <h4><i class="fas fa-users" aria-hidden="true"></i> Social Beings</h4>
+                            <p>Bonobos have strong friendships and social bonds amongst themselves. They are capable of altruism, compassion, empathy, kindness, patience, and sensitivity. Bonobos love to share with family and friends, but when given a choice, they even prefer to share with strangers.</p>
+                            <p>Bonobos have also highly individuated facial features, so that one individual may look significantly different from another. This is for facial recognition in social interaction.</p>
+                        </div>
+                        <div class="my-col col-md-4 d-lg-none my-auto">
+                            <img src="assets/images/social-beings-opt-crop.jpg" alt="Bonobos socializing" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Social beings -->
+            </div>
+            <!-- Lg: Images from 'Tribe of peacemakers' and 'Social beings' -->
+            <div class="row">
+                <div class="my-col col-lg-6 d-none d-lg-block">
+                    <img src="assets/images/tribe-of-peacemakers-opt-crop.jpg" alt="Bonobos sharing food" class="img-fluid rounded-circle">
+                </div>
+                <div class="my-col col-lg-6 d-none d-lg-block">
+                    <img src="assets/images/social-beings-opt-crop.jpg" alt="Bonobos socializing" class="img-fluid rounded-circle">
+                </div>
+            </div>
+            <!-- /.Lg: Images from 'Tribe of peacemakers' and 'Social beings' -->
+            <!-- Bonobo handshake -->
+            <div class="row">
+                <div class="my-col col-md-12 col-lg-6 d-none d-md-block">
+                    <div class="row">
+                        <div class="my-col col-md-8 col-lg-12">
+                            <h4><i class="fas fa-handshake" aria-hidden="true"></i> Bonobo handshake</h4>
+                            <p>The main way bonobos diffuse tension is certainly original – they have sex, or more specifically, they use social sexual contact. In their society, this is as common and friendly as a handshake. If anyone in the group, male or female, is feeling stressed, anxious, or irritated, someone will run over and give them a ‘bonobo handshake’. This kind of conflict resolution seems to be at the heart of their peaceful society.</p>
+                        </div>
+                        <div class="my-col col-md-4 d-lg-none my-auto">
+                           <img src="assets/images/bonobo-handshake-opt-crop.jpg" alt="Bonobos kissing" class="img-fluid rounded-circle">
+                    </div>
+                    </div>
+                </div>
+                <!-- /.Bonobo handshake -->
+                <!-- Highly endangered -->
+                <div class="my-col col-md-12 col-lg-6 d-none d-md-block">
+                    <div class="row">
+                        <div class="my-col col-md-8 col-lg-12">
+                            <h4><i class="fas fa-exclamation" aria-hidden="true"></i> Highly endangered</h4>
+                            <p>Bonobos live only in one country, the Democratic Republic of Congo. Even though they live in a huge forest, they are very vulnerable to hunting, so that their population is believed to have declined sharply in the last 30 years. No one is sure how many are left in the wild, but estimations reach from 5,000 - 50,000. Because bonobos only bear offspring every 4 to 5 years, the population is slow to regenerate.</p>
+                        </div>
+                        <div class="my-col col-md-4 d-lg-none my-auto">
+                            <img src="assets/images/highly-endangered-opt-crop.jpg" alt="Bonobo mother with child" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Highly endangered -->
+            </div>
+            <!-- Lg: Images from 'Bonobo handshake' and 'Highly endangered' -->
+            <div class="row">
+                <div class="my-col col-lg-6 d-none d-lg-block">
+                    <img src="assets/images/bonobo-handshake-opt-crop.jpg" alt="Bonobos kissing" class="img-fluid rounded-circle">
+                </div>
+                <div class="my-col col-lg-6 d-none d-lg-block">
+                    <img src="assets/images/highly-endangered-opt-crop.jpg" alt="Bonobo mother with child" class="img-fluid rounded-circle">
+                </div>
+            </div>
+            <!-- /.Lg: Images from 'Bonobo handshake' and 'Highly endangered' -->
             <div class="row">
                 <div class="col-12 text-center align-items-center my-3">
                     <div class="horizontal-line"></div>
