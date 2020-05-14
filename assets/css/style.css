@@ -1,4 +1,4 @@
-/* TESTING*/
+/* TESTING
 .container{
     border: 5px solid green;
 }
@@ -10,7 +10,7 @@
 .my-col{
     border: 5px solid red;
 }
-
+*/
 
 
 
@@ -21,8 +21,8 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#home{
-    padding-top: 0;;
+#banner {
+    padding-top: 0;
 }
 
 h1, h2, h3, h4 {
@@ -399,18 +399,40 @@ button:focus {
 
 
 
+/* Heading (about)*/
+
+.about-heading-section {
+    background: url("/assets/images/claudine-andre-with-bonobo-family-sm-opt-crop.jpg") no-repeat top center; 
+    height: 70vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-heading-section h2 {
+    background-color: rgba(16, 115, 8, 0.7);
+}
+
+
+/* /.Heading (about)*/
+
+
 /* Media queries */
 
 @media only screen and (min-width: 650px) {
-    body{
-        padding-top: 5rem;
-    }
     .callout-container{
         background: url("/assets/images/hero-image-tablet.jpg") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        padding-top: 4.5rem;
     }
     .navbar-brand {
         font-size: 2rem;
@@ -423,6 +445,14 @@ button:focus {
     }
     .call-to-action-link  a {
      font-size: 1.5rem;
+    }
+    .about-heading-section {
+    background: url("/assets/images/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center; 
+    height: 75vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     }
 }
 
@@ -448,6 +478,14 @@ button:focus {
     }
     .horizontal-line-row {
         margin-top: 2.5rem;
+    }
+    .about-heading-section {
+    background: url("/assets/images/claudine-and-bonobo-opt.png") no-repeat top center; 
+    height: 75vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     }
 }
 
