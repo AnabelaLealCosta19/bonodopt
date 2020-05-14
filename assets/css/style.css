@@ -1,4 +1,4 @@
-/* TESTING
+/* TESTING 
 .container{
     border: 5px solid green;
 }
@@ -10,8 +10,8 @@
 .my-col{
     border: 5px solid red;
 }
-*/
 
+*/
 
 
 /* Body */
@@ -414,8 +414,26 @@ button:focus {
     background-color: rgba(16, 115, 8, 0.7);
 }
 
-
 /* /.Heading (about)*/
+
+
+
+/* Quote (about) */
+
+.about-quote-section {
+    height: calc(30vh - 3rem);  /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+}
+
+.about-quote-section p {
+    text-align: center;
+}
+
+.about-quote-section .source {
+    margin-bottom: 0;
+}
+
+/* /.Quote (about) */
+
 
 
 /* Media queries */
@@ -444,15 +462,18 @@ button:focus {
         font-size: 3rem;
     }
     .call-to-action-link  a {
-     font-size: 1.5rem;
+        font-size: 1.5rem;
     }
     .about-heading-section {
-    background: url("/assets/images/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center; 
-    height: 75vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        background: url("/assets/images/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center; 
+        height: 75vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .about-quote-section {
+        height: calc(25vh - 4.5rem);  
     }
 }
 
