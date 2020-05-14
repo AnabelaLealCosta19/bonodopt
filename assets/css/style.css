@@ -210,7 +210,7 @@ button:focus {
 
     /* Full width background-image | source: 'CSS tricks' (URL: https://css-tricks.com/perfect-full-page-background-image/) */
     /* Source of the following picture is www.stock.adobe.com (URL https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313) */
-    background: url("/assets/images/hero-image-mobile.jpg") no-repeat center center fixed; 
+    background: url("/assets/images/index/hero-image-mobile.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -406,7 +406,7 @@ button:focus {
 
 .about-heading-section {
     /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-    background: url("/assets/images/claudine-andre-with-bonobo-family-sm-opt-crop.jpg") no-repeat top center; 
+    background: url("/assets/images/about/claudine-andre-with-bonobo-family-sm-opt-crop.jpg") no-repeat top center; 
     height: 70vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -477,7 +477,7 @@ figcaption {
 @media only screen and (min-width: 650px) {
     .callout-container{
         /* Source of the following picture is www.stock.adobe.com (URL https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313) */
-        background: url("/assets/images/hero-image-tablet.jpg") no-repeat center center fixed; 
+        background: url("/assets/images/index/hero-image-tablet.jpg") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -505,7 +505,7 @@ figcaption {
     }
     .about-heading-section {
         /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-        background: url("/assets/images/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center; 
+        background: url("/assets/images/about/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center; 
         height: 75vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -526,7 +526,7 @@ figcaption {
 @media only screen and (min-width: 992px) {
     .callout-container{
         /* Source of the following picture is www.stock.adobe.com (URL https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313) */
-        background: url("/assets/images/hero-image-opt.jpeg") no-repeat center center fixed; 
+        background: url("/assets/images/index/hero-image-opt.jpeg") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -549,7 +549,7 @@ figcaption {
     }
     .about-heading-section {
         /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-        background: url("/assets/images/claudine-and-bonobo-opt.png") no-repeat top center; 
+        background: url("/assets/images/about/claudine-and-bonobo-opt.png") no-repeat top center; 
         height: 75vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
