@@ -31,9 +31,14 @@ h1, h2, h3, h4 {
 
 .content-header {
     margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
+
+.text-block {
+    margin-top: 2rem;
+}
+
 
 /* ./Body */
 
@@ -426,6 +431,7 @@ button:focus {
 
 .about-quote-section p {
     text-align: center;
+    font-size: calc(0.75rem + 0.75vw); /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
 }
 
 .about-quote-section .source {
@@ -433,6 +439,26 @@ button:focus {
 }
 
 /* /.Quote (about) */
+
+
+
+/* Bonodopt (about) */
+
+figcaption {
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+.about-bonodopt-section figure {
+    text-align: center;
+}
+    
+.about-bonodopt-section img {
+    max-height: 14rem;
+}
+
+/* /.Bonodopt (about) */
 
 
 
@@ -476,6 +502,8 @@ button:focus {
         height: calc(25vh - 4.5rem);  
     }
 }
+
+
 
 @media only screen and (min-width: 992px) {
     .callout-container{
