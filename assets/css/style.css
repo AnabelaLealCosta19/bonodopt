@@ -451,6 +451,7 @@ figcaption {
     font-style: italic;
     font-size: small;
     text-align: center;
+    padding-top: 5px;
 }
 
 .about-bonodopt-section figure {
@@ -470,6 +471,10 @@ figcaption {
 .about-note-section {
     padding: 1rem 1rem 3rem 1rem;
     margin-bottom: 0;
+}
+
+.about-note-section img {
+    padding-top: 0.5rem;
 }
 
 /* /.Note (about) */
