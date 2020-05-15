@@ -365,6 +365,10 @@ button:focus {
     font-size: 1.25rem;
 }
 
+.card-body img .img-fluid{
+    max-height: 346px;
+}
+
 .one-reason {
     padding-top: 2rem;
 }
