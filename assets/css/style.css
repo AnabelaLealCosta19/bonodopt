@@ -10,7 +10,6 @@
 .my-col{
     border: 5px solid red;
 }
-
 */
 
 
@@ -93,7 +92,7 @@ h1, h2, h3, h4, h5 {
 
 
 
-/* Reusable classes */
+/* Horizontal line */
 
 .horizontal-line{
     background-color: rgb(29,36,42);
@@ -104,7 +103,22 @@ h1, h2, h3, h4, h5 {
     box-shadow: 1px 1px rgba(29,36,42,0.7);
 }
 
-/* ./Reusable classes */
+/* ./Horizontal line */
+
+
+
+/* Collapse */
+
+.card-header .btn-link {
+    color: white;
+}
+
+.card-header .btn-link i {
+    width: 2rem;
+    font-size: 1.25rem;
+}
+
+/* /.Collapse */
 
 
 
@@ -291,7 +305,7 @@ button:focus {
     padding: 5px;
 } 
 
-.call-to-action-link  a {
+.call-to-action-link a {
      font-size: 1.25rem;
      font-weight: 500;
      color:rgb(29,36,42);
@@ -320,7 +334,7 @@ button:focus {
     color: rgb(22, 160, 11);
 }
 
-/* /.Link gallery (index)*/
+/* /.Home gallery (index)*/
 
 
 
@@ -356,19 +370,6 @@ button:focus {
 
 /* 6 reasons why (bonobos)*/
 
-.card-header .btn-link {
-    color: white;
-}
-
-.card-header .btn-link i {
-    width: 2rem;
-    font-size: 1.25rem;
-}
-
-.card-body img .img-fluid{
-    max-height: 346px;
-}
-
 .one-reason {
     padding-top: 2rem;
 }
@@ -378,7 +379,6 @@ button:focus {
     text-align: center;
     font-size: 1.75rem;
 }
-
 
 .img-lg-container {
     text-align: center;
@@ -451,7 +451,7 @@ figcaption {
     font-style: italic;
     font-size: small;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.5rem;
 }
 
 .about-bonodopt-section figure {
@@ -474,10 +474,41 @@ figcaption {
 }
 
 .about-note-section img {
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 /* /.Note (about) */
+
+
+/* Program */
+
+.card-header .btn {
+    text-transform: uppercase;
+}
+
+.card-body h5 {
+    margin-top: 1.5rem;
+}
+
+#last-card {
+    margin-bottom: 1rem;
+}
+
+/* Program */
+
+
+
+/* Help (program) */
+
+.help-section h4 {
+    text-align: center;
+}
+
+.help-section .btn {
+    margin-bottom: 3rem;
+}
+
+/* Help (program) */
 
 
 
