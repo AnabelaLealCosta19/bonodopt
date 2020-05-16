@@ -494,6 +494,15 @@ figcaption {
     margin-bottom: 1rem;
 }
 
+.rehabilitation-container {
+    padding: 2rem;
+}
+
+.rehabilitation-container img {
+    max-height: 12rem;
+    margin: 0.5rem;
+}
+
 /* Program */
 
 
@@ -507,6 +516,12 @@ figcaption {
 .help-section .btn {
     margin-bottom: 3rem;
 }
+
+.help-border {
+    border-left: solid 2px rgba(29,36,42,0.9);
+}
+
+
 
 /* Help (program) */
 
@@ -558,6 +573,18 @@ figcaption {
     .about-note-section {
         padding: 1rem 2rem;
         margin-bottom: 2rem;
+    }
+    .program-section h3 {
+        margin-top: 1rem;
+    }
+    .help-section {
+        margin-bottom: 5rem;
+    }
+    .help-section .btn {
+        margin-bottom: 0;
+    }
+    .help-section h3 {
+        margin: 1rem;
     }
 }
 
