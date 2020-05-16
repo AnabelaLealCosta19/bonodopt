@@ -62,9 +62,8 @@
         <form class="needs-validation" novalidate>
             <div class="form-group row">
                 <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-lg-center">
-                    <h2 class="text-center content-header">Adopt a bonobo</h2>
-                    <p>When adopting you support one of our bonobos directly by helping to provide food and medical care. In return you will receive a thoughtful adoption kit including a high-quality picture of <u>your</u> bonobo. THANK YOU!</p>
-                    <p class="text-center"><strong>50 EUR</strong></p>
+                    <h2 class="text-center content-header">Sponsor our work </h2>
+                    <p>By donating you sponsor our work and give us the freedom to always use your contribution in the area where it's needed most. You don't only help us fight the symptoms but also the root causes. As confirmation you will receive a donation receipt. THANK YOU!</p>
                 </div>
             </div>
              <div class="form-group row">
@@ -104,45 +103,60 @@
                     </small>
                 </div>
             </div>
-            <div class="form-group check-box-group row">
-                <div class="form-check col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 custom-checkbox">
-                    <input class="form-check-input" type="checkbox" id="gift">
-                    <label class="form-check-label" for="gift">
-                        This is a gift.
-                    </label>
-                </div>
-                <div class="form-check col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
-                    <input class="form-check-input" type="checkbox" id="maximize">
-                    <label class="form-check-label" for="maximize">
-                        I want to maximize my donation's impact. This does not include the adoption kit; you will only receive a digital adoption certificate.
-                    </label>
-                </div>
-                <div class="form-check col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
-                    <input class="form-check-input" type="checkbox" id="newsletter">
-                    <label class="form-check-label" for="newsletter">
-                        I wish to stay in touch and receive Bonodopt's monthly newsletter.
-                    </label>
+            <div class="row">
+                <div class="col-12 text-center align-items-center mb-4 fine-line-div">
+                    <div class="fine-line"></div>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center adopt-btn-div">
-                    <button type="submit" class="btn btn-success btn-green" aria-describedby="adopt-hint">Adopt Now</button>
-                    <small id="adopt-hint" class="form-text text-muted">
-                    <i>By clicking "Adopt Now", I agree to the Terms & Conditions and Privacy Policy</i>   
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
+                    <span class="donation-type-group">Type of Donation:</span><br class="d-md-none">
+                    <div class="form-check form-check-inline donation-type-group">
+                        <input class="form-check-input" type="radio" name="donation-type" id="monthly" value="monthly" checked>
+                        <label class="form-check-label" for="monthly">Monthly</label>
+                    </div>
+                    <div class="form-check form-check-inline donation-type-group">
+                        <input class="form-check-input" type="radio" name="donation-type" id="one-time" value="one-time">
+                        <label class="form-check-label" for="one-time">One-time donation</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
+                    <span class="donation-amount-group">Donation Amount:</span><br class="d-md-none">
+                    <div class="form-check form-check-inline donation-amount-group">
+                        <input class="form-check-input" type="radio" name="donation-amount" id="50" value="50" checked>
+                        <label class="form-check-label" for="50">50 EUR</label>
+                    </div>
+                    <div class="form-check form-check-inline donation-amount-group">
+                        <input class="form-check-input" type="radio" name="donation-amount" id="20" value="20">
+                        <label class="form-check-label" for="20">20 EUR</label>
+                    </div>
+                    <div class="form-check form-check-inline donation-amount-group">
+                        <input class="form-check-input" type="radio" name="donation-amount" id="10" value="10">
+                        <label class="form-check-label" for="10">10 EUR</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center mt-3">
+                    <button type="submit" class="btn btn-success btn-green" aria-describedby="donate-hint">Donate Now</button>
+                    <small id="donate-hint" class="form-text text-muted">
+                    <i>By clicking "Donate Now", I agree to the Terms & Conditions and Privacy Policy</i>   
                     </small>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center alternative-div">
-                    <p>Want to make a bigger impact?<br>
-                        <a href="adopt.html">Donate instead</a>
+                    <p>Love our adoption kit?<br>
+                        <a href="adopt.html">Adopt a bonobo</a>
                     </p>
                 </div>
             </div>
         </form>
 
         <script>
-            <!-- Javascript provided in Bootstrap (Forms > Validation > Custom styles [URL: https://getbootstrap.com/docs/4.0/components/forms/?#custom-styles]) -->
+            // Javascript provided in Bootstrap (Forms > Validation > Custom styles [URL: https://getbootstrap.com/docs/4.0/components/forms/?#custom-styles])
             (function() {
                 'use strict';
                 window.addEventListener('load', function() {

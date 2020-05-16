@@ -145,16 +145,27 @@ h1, h2, h3, h4, h5 {
     margin-left: 0rem;
 }
 
- .adopt-btn-div {
-     margin-top: 1rem;
- }
-
  .alternative-div {
      margin-top: 2rem;
  }
 
 form a {
     color: rgb(22, 160, 11);
+}
+
+.donation-amount-group, .donation-type-group {
+    margin: 0 1rem;
+}
+
+.fine-line{
+    background-color: rgb(29,36,42);
+    height: 2px;
+    width: 150px;
+    display: inline-block;
+}
+
+.fine-line-div {
+    margin-top: 0;
 }
 
 /* /.Form */
@@ -682,8 +693,8 @@ figcaption {
         padding: 0 3rem;
     }
     #form-container {
-    min-height: calc(100vh - 10rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
-}
+    min-height: calc(100vh - 9.2rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    }
 }
 
 /* /.Media queries */
