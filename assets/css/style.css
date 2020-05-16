@@ -205,13 +205,19 @@ button:focus {
 
 .footer-row {
     background-color: rgba(29,36,42,0.9);
-    min-height: 5rem;
+    min-height: 6rem;
 }
 
-.footer-components p, .footer-components a  {
+.footer-components p, .footer-components a {
     color: white;
     font-size: 0.95rem;
     padding: 0;
+    margin: 0;
+}
+
+.footer-components ul {
+    padding: 0.5rem;
+    margin: 0;
 }
 
 #first-footer-component {
@@ -689,7 +695,7 @@ figcaption {
         padding: 0 3rem;
     }
     #form-container {
-    min-height: calc(100vh - 9.2rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    min-height: calc(100vh - 10.2rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
     }
 }
 
