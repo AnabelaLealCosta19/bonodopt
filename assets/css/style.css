@@ -122,6 +122,45 @@ h1, h2, h3, h4, h5 {
 
 
 
+/* Form */
+
+#form-container {
+    min-height: calc(100vh - 18rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+}
+
+ form {
+    padding: 1rem;
+    margin: auto;
+ }
+
+#fname-div {
+    padding-right: 0.25rem;
+ }
+
+#lname-div {
+    padding-left: 0.25rem;
+ }
+
+.check-box-group {
+    margin-left: 0rem;
+}
+
+ .adopt-btn-div {
+     margin-top: 1rem;
+ }
+
+ .alternative-div {
+     margin-top: 2rem;
+ }
+
+form a {
+    color: rgb(22, 160, 11);
+}
+
+/* /.Form */
+
+
+
 /* Navbar */
 
 .navbar{
@@ -521,6 +560,11 @@ figcaption {
 /* Help (program) */
 
 
+
+
+
+
+
 /* Media queries */
 
 @media only screen and (min-width: 650px) {
@@ -533,7 +577,6 @@ figcaption {
         background-size: cover;
     }
 }
-
 
 
 @media only screen and (min-width: 768px) {
@@ -584,7 +627,6 @@ figcaption {
         margin: 1rem;
     }
 }
-
 
 
 @media only screen and (min-width: 992px) {
@@ -639,6 +681,9 @@ figcaption {
     .help-content {
         padding: 0 3rem;
     }
+    #form-container {
+    min-height: calc(100vh - 10rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+}
 }
 
 /* /.Media queries */

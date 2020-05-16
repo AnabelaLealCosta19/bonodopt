@@ -62,13 +62,13 @@
         <form class="needs-validation" novalidate>
             <div class="form-group row">
                 <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-lg-center">
-                    <h2 class="text-center">Adopt a bonobo</h2>
+                    <h2 class="text-center content-header">Adopt a bonobo</h2>
                     <p>When adopting you support one of our bonobos directly by helping to provide food and medical care. In return you will receive a thoughtful adoption kit including a high-quality picture of <u>your</u> bonobo. THANK YOU!</p>
                     <p class="text-center"><strong>50 EUR</strong></p>
                 </div>
             </div>
              <div class="form-group row">
-                <div class="col-6 col-md-5 offset-md-1 col-lg-3 offset-lg-3">
+                <div class="col-6 col-md-5 offset-md-1 col-lg-3 offset-lg-3" id="fname-div">
                     <label class="sr-only" for="fname">First Name</label>
                     <input type="text" class="form-control" id="fname" placeholder="First name" required>
                     <div class="valid-feedback">
@@ -78,7 +78,7 @@
                         Please provide your first name.
                     </div>
                 </div>
-                <div class="col-6 col-md-5 col-lg-3">
+                <div class="col-6 col-md-5 col-lg-3" id="lname-div">
                     <label class="sr-only" for="fname">Last Name</label>
                     <input type="text" class="form-control" id="lname" placeholder="Last name" required>
                     <div class="valid-feedback">
@@ -104,8 +104,8 @@
                     </small>
                 </div>
             </div>
-            <div class="form-group row">
-                <div class="form-check col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
+            <div class="form-group check-box-group row">
+                <div class="form-check col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 custom-checkbox">
                     <input class="form-check-input" type="checkbox" id="gift">
                     <label class="form-check-label" for="gift">
                         This is a gift.
@@ -125,7 +125,7 @@
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center adopt-btn-div">
                     <button type="submit" class="btn btn-success btn-green" aria-describedby="adopt-hint">Adopt Now</button>
                     <small id="adopt-hint" class="form-text text-muted">
                     <i>By clicking "Adopt Now", I agree to the Terms & Conditions and Privacy Policy</i>   
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center alternative-div">
                     <p>Want to make a bigger impact?<br>
                         <a href="#">Donate instead</a>
                     </p>
@@ -142,7 +142,7 @@
         </form>
 
         <script>
-            /* Javascript provided in Bootstrap (Forms > Validation > Custom styles [URL: https://getbootstrap.com/docs/4.0/components/forms/?#custom-styles]) */
+            <!-- Javascript provided in Bootstrap (Forms > Validation > Custom styles [URL: https://getbootstrap.com/docs/4.0/components/forms/?#custom-styles]) -->
             (function() {
                 'use strict';
                 window.addEventListener('load', function() {
