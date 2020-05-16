@@ -50,6 +50,14 @@ h1, h2, h3, h4, h5 {
     color: white;  
 }
 
+.green-link {
+    color: rgb(22, 160, 11);
+}
+
+.green-link:hover {
+    color: rgb(22, 160, 11);
+}
+
 .bg-grey{
     background-color: rgba(29,36,42,0.7);
 }
@@ -148,14 +156,6 @@ h1, h2, h3, h4, h5 {
  .alternative-div {
      margin-top: 2rem;
  }
-
-form a {
-    color: rgb(22, 160, 11);
-}
-
-form a:hover {
-    color: rgb(22, 160, 11);
-}
 
 .donation-amount-group, .donation-type-group {
     margin: 0 1rem;
@@ -375,22 +375,6 @@ button:focus {
 }
 
 /* /.Call to action (index)*/
-
-
-
-/* Home gallery (index)*/
-
-.home-gallery-container p, .home-gallery-container a {
-    font-weight: 500;
-    text-decoration: none;
-    margin: 0;
-}
-
-.home-gallery-container a, .home-gallery-container i {
-    color: rgb(22, 160, 11);
-}
-
-/* /.Home gallery (index)*/
 
 
 
