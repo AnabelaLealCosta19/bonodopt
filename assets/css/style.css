@@ -359,6 +359,15 @@ button:focus {
 /* /.Intro bonobos (index)*/
 
 
+/* About (index)*/
+
+.btn-story {
+    border: 4px solid  rgb(16, 115, 8);
+}
+
+/* /.About (index)*/
+
+
 /* Intro program (index)*/
 
 .program-box {
