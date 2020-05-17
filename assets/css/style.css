@@ -14,11 +14,13 @@
 
 
 /* Body */
-html{
-    scroll-behavior: smooth; /* Smooth scrolling instead of snapping for better UX | source: 'gomakethings' (URL: https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/) */
+
+html {
+    scroll-behavior: smooth;
+    /* Smooth scrolling instead of snapping for better UX | source: 'gomakethings' (URL: https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/) */
 }
 
-body{
+body {
     padding-top: 2.8rem;
     font-family: 'Raleway', sans-serif;
 }
@@ -27,7 +29,11 @@ body{
     padding-top: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     text-transform: uppercase;
 }
 
@@ -46,11 +52,10 @@ h1, h2, h3, h4, h5 {
 /* ./Body */
 
 
-
 /* Colors */
 
 .white-text {
-    color: white;  
+    color: white;
 }
 
 .green-link {
@@ -61,8 +66,8 @@ h1, h2, h3, h4, h5 {
     color: rgb(22, 160, 11);
 }
 
-.bg-grey{
-    background-color: rgba(29,36,42,0.7);
+.bg-grey {
+    background-color: rgba(29, 36, 42, 0.7);
 }
 
 .bg-green {
@@ -71,12 +76,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn-green {
-    background-color:rgb(16, 115, 8);
+    background-color: rgb(16, 115, 8);
     border-color: rgb(16, 115, 8);
 }
 
-/* ./Colors */
 
+/* ./Colors */
 
 
 /* Buttons */
@@ -87,35 +92,35 @@ h1, h2, h3, h4, h5 {
     border-color: rgb(21, 140, 12);
 }
 
-.btn-outline-success{
+.btn-outline-success {
     background-color: white;
     color: rgb(21, 140, 12);
     border-color: rgb(21, 140, 12);
 }
 
-.btn-outline-success:hover{
+.btn-outline-success:hover {
     color: white;
-    background-color:rgb(16, 115, 8);
+    background-color: rgb(16, 115, 8);
     border-color: rgb(16, 115, 8);
 }
+
 
 /* ./Buttons */
 
 
-
 /* Horizontal line */
 
-.horizontal-line{
-    background-color: rgb(29,36,42);
+.horizontal-line {
+    background-color: rgb(29, 36, 42);
     height: 2.5px;
     width: 150px;
     border-radius: 25%;
     display: inline-block;
-    box-shadow: 1px 1px rgba(29,36,42,0.7);
+    box-shadow: 1px 1px rgba(29, 36, 42, 0.7);
 }
 
-/* ./Horizontal line */
 
+/* ./Horizontal line */
 
 
 /* Collapse */
@@ -129,64 +134,65 @@ h1, h2, h3, h4, h5 {
     font-size: 1.25rem;
 }
 
-/* /.Collapse */
 
+/* /.Collapse */
 
 
 /* Form */
 
 #form-container {
-    min-height: calc(100vh - 18rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    min-height: calc(100vh - 18rem)/* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
 }
 
- form {
+form {
     padding: 1rem;
     margin: auto;
- }
+}
 
 #fname-div {
     padding-right: 0.25rem;
- }
+}
 
 #lname-div {
     padding-left: 0.25rem;
- }
+}
 
 .check-box-group {
     margin-left: 0rem;
 }
 
- .alternative-div {
-     margin-top: 2rem;
- }
+.alternative-div {
+    margin-top: 2rem;
+}
 
-.donation-amount-group, .donation-type-group {
+.donation-amount-group,
+.donation-type-group {
     margin: 0 1rem;
 }
 
-.fine-line{
-    background-color: rgb(29,36,42);
+.fine-line {
+    background-color: rgb(29, 36, 42);
     height: 2px;
     width: 150px;
     display: inline-block;
 }
 
-/* /.Form */
 
+/* /.Form */
 
 
 /* Navbar */
 
-.navbar{
-    background-color: rgba(29,36,42,0.9);
+.navbar {
+    background-color: rgba(29, 36, 42, 0.9);
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: 0;
 }
 
@@ -196,7 +202,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
 }
 
-.btn-navbar{
+.btn-navbar {
     font-size: 1.25rem;
 }
 
@@ -204,18 +210,19 @@ button:focus {
     outline: none;
 }
 
-/* ./ Navbar */
 
+/* ./ Navbar */
 
 
 /* Footer */
 
 .footer-row {
-    background-color: rgba(29,36,42,0.9);
+    background-color: rgba(29, 36, 42, 0.9);
     min-height: 6rem;
 }
 
-.footer-components p, .footer-components a {
+.footer-components p,
+.footer-components a {
     color: white;
     font-size: 0.95rem;
     padding: 0;
@@ -239,15 +246,18 @@ button:focus {
     font-size: 1.1rem;
 }
 
+
 /* Icons with background softly changing color | source: 'Code Institute' (URL: https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/1?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40html%2Bblock%40afee41b412ef4289a600177505f1042f) */
-.social li a i, .contact i {
+
+.social li a i,
+.contact i {
     width: 2rem;
     height: 2rem;
     padding: 0.75rem 0;
     border-radius: 50%;
     font-size: 1rem;
     line-height: 0.5rem;
-    background-color: rgb(105,111,117);
+    background-color: rgb(105, 111, 117);
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -256,13 +266,14 @@ button:focus {
     text-align: center;
 }
 
-.social li a i:hover, .contact i:hover {
+.social li a i:hover,
+.contact i:hover {
     background-color: rgb(16, 115, 8);
     outline: medium none;
 }
 
-/* /.Footer */
 
+/* /.Footer */
 
 
 /* Modal */
@@ -271,19 +282,18 @@ button:focus {
     text-align: center;
 }
 
-/* /.Modal */
 
+/* /.Modal */
 
 
 /* Callout (index) */
 
-.callout-container{
+.callout-container {
     height: 100vh;
     font-weight: 300;
-
     /* Full width background-image | source: 'CSS tricks' (URL: https://css-tricks.com/perfect-full-page-background-image/) */
     /* Source of the following picture is www.stock.adobe.com (URL https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313) */
-    background: url("/assets/images/index/hero-image-mobile.jpg") no-repeat center center fixed; 
+    background: url("/assets/images/index/hero-image-mobile.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -291,15 +301,17 @@ button:focus {
 }
 
 .callout-content .col-8 {
-    background-color: rgba(29,36,42,0.7);
+    background-color: rgba(29, 36, 42, 0.7);
 }
 
 .callout-content h1 {
     font-weight: 300;
-    font-size: calc(1.5rem + 4vw); /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    font-size: calc(1.5rem + 4vw);
+    /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
 }
 
-.callout-content p, .btn-callout {
+.callout-content p,
+.btn-callout {
     font-size: calc(0.75rem + 1vw);
 }
 
@@ -320,75 +332,79 @@ button:focus {
     color: white;
     font-size: 2rem;
     margin-top: 0.5rem;
-    -webkit-text-stroke: 2.5px rgba(29,36,42,0.9); /* Make icon lighter | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/28560118/want-to-make-font-awesome-icons-thinner)*/
-    -moz-text-stroke: 2.5px rgba(29,36,42,0.9);
-    -o-text-stroke: 2.5px rgba(29,36,42,0.9);
+    -webkit-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
+    /* Make icon lighter | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/28560118/want-to-make-font-awesome-icons-thinner)*/
+    -moz-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
+    -o-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
 }
 
-/* /.Callout (index)*/
 
+/* /.Callout (index)*/
 
 
 /* Intro bonobos (index)*/
 
 .bonobos-container {
-    scroll-margin-top: 2.8rem; /* Prevents from scrolling behind fixed navbar | source: 'gomakethings' (URL: https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/) */
+    scroll-margin-top: 2.8rem;
+    /* Prevents from scrolling behind fixed navbar | source: 'gomakethings' (URL: https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/) */
 }
+
 
 /* /.Intro bonobos (index)*/
 
 
 /* Intro program (index)*/
 
-.program-box{
+.program-box {
     border: 2px solid white;
     padding: 50px 10px;
 }
 
 .program-box i {
     font-size: 2rem;
-} 
+}
 
-#box-question{
+#box-question {
     opacity: 0.8;
-} 
+}
 
 #box-question i {
     font-size: 3rem;
 }
 
 .program-box p {
-     font-size: 1.25rem;
-     margin: 0;
+    font-size: 1.25rem;
+    margin: 0;
 }
 
-/* /.Intro program (index)*/
 
+/* /.Intro program (index)*/
 
 
 /* Call to action (index)*/
 
 .call-to-action-link i {
     font-size: 2.5rem;
-    color: rgb(29,36,42);
+    color: rgb(29, 36, 42);
     padding: 5px;
-} 
+}
 
 .call-to-action-link a {
-     font-size: 1.25rem;
-     font-weight: 500;
-     color:rgb(29,36,42);
-     text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(29, 36, 42);
+    text-decoration: none;
 }
 
 .call-to-action-link:hover {
-    -webkit-transform: scale(1.2);  /* Increase size on hover | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/14073498/how-do-i-create-a-change-in-font-size-on-hover-without-realigning-other-text) */
+    -webkit-transform: scale(1.2);
+    /* Increase size on hover | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/14073498/how-do-i-create-a-change-in-font-size-on-hover-without-realigning-other-text) */
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
 
-/* /.Call to action (index)*/
 
+/* /.Call to action (index)*/
 
 
 /* Bonobos headings */
@@ -397,12 +413,14 @@ button:focus {
     margin-bottom: 1rem;
 }
 
-.general-container h3, .six-reasons-container h3, .six-reasons-container h4 {
+.general-container h3,
+.six-reasons-container h3,
+.six-reasons-container h4 {
     font-weight: 400;
 }
 
-/* /.Bonobos headings */
 
+/* /.Bonobos headings */
 
 
 /* General (bonobos)*/
@@ -417,8 +435,8 @@ button:focus {
     margin-bottom: 2.5rem;
 }
 
-/* /.General (bonobos)*/
 
+/* /.General (bonobos)*/
 
 
 /* 6 reasons why (bonobos)*/
@@ -445,8 +463,8 @@ button:focus {
     margin-top: 2.5rem;
 }
 
-/* /.6 reasons why (bonobos)*/
 
+/* /.6 reasons why (bonobos)*/
 
 
 /* Quote (bonobos)*/
@@ -455,15 +473,15 @@ button:focus {
     margin: 2rem auto;
 }
 
-/* /.Quote (bonobos)*/
 
+/* /.Quote (bonobos)*/
 
 
 /* Heading (about)*/
 
 .about-heading-section {
     /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-    background: url("/assets/images/about/claudine-andre-with-bonobo-family-sm-opt-crop.jpg") no-repeat top center; 
+    background: url("/assets/images/about/claudine-andre-with-bonobo-family-sm-opt-crop.jpg") no-repeat top center;
     height: 70vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -475,27 +493,29 @@ button:focus {
     background-color: rgba(16, 115, 8, 0.7);
 }
 
-/* /.Heading (about)*/
 
+/* /.Heading (about)*/
 
 
 /* Quote (about) */
 
 .about-quote-section {
-    height: calc(30vh - 3rem);  /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    height: calc(30vh - 3rem);
+    /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
 }
 
 .about-quote-section p {
     text-align: center;
-    font-size: calc(0.75rem + 0.75vw); /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+    font-size: calc(0.75rem + 0.75vw);
+    /* Responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
 }
 
 .about-quote-section .source {
     margin-bottom: 0;
 }
 
-/* /.Quote (about) */
 
+/* /.Quote (about) */
 
 
 /* Bonodopt (about) */
@@ -510,13 +530,13 @@ figcaption {
 .about-bonodopt-section figure {
     text-align: center;
 }
-    
+
 .about-bonodopt-section img {
     max-height: 14rem;
 }
 
-/* /.Bonodopt (about) */
 
+/* /.Bonodopt (about) */
 
 
 /* Note (about) */
@@ -529,6 +549,7 @@ figcaption {
 .about-note-section img {
     padding-top: 1rem;
 }
+
 
 /* /.Note (about) */
 
@@ -556,8 +577,8 @@ figcaption {
     margin: 0.5rem;
 }
 
-/* Program */
 
+/* Program */
 
 
 /* Help (program) */
@@ -571,20 +592,16 @@ figcaption {
     margin-bottom: 3rem;
 }
 
+
 /* Help (program) */
-
-
-
-
-
 
 
 /* Media queries */
 
 @media only screen and (min-width: 650px) {
-    .callout-container{
+    .callout-container {
         /* Source of the following picture is www.stock.adobe.com (URL https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313) */
-        background: url("/assets/images/index/hero-image-tablet.jpg") no-repeat center center fixed; 
+        background: url("/assets/images/index/hero-image-tablet.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -592,9 +609,8 @@ figcaption {
     }
 }
 
-
 @media only screen and (min-width: 768px) {
-    body{
+    body {
         padding-top: 4.5rem;
     }
     .navbar-brand {
@@ -609,12 +625,12 @@ figcaption {
     .call-to-action-link i {
         font-size: 3rem;
     }
-    .call-to-action-link  a {
+    .call-to-action-link a {
         font-size: 1.5rem;
     }
     .about-heading-section {
         /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-        background: url("/assets/images/about/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center; 
+        background: url("/assets/images/about/claudine-andre-with-bonobo-family-md-opt-crop.jpg") no-repeat top center;
         height: 75vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -622,7 +638,7 @@ figcaption {
         background-size: cover;
     }
     .about-quote-section {
-        height: calc(25vh - 4.5rem);  
+        height: calc(25vh - 4.5rem);
     }
     .about-note-section {
         padding: 1rem 2rem;
@@ -635,7 +651,7 @@ figcaption {
         margin-bottom: 5rem;
     }
     .help-border {
-        border-left: solid 2px rgba(29,36,42,0.9);
+        border-left: solid 2px rgba(29, 36, 42, 0.9);
     }
     .help-section .btn {
         margin-bottom: 0;
@@ -645,20 +661,21 @@ figcaption {
     }
 }
 
-
 @media only screen and (min-width: 992px) {
-    .callout-container{
+    .callout-container {
         /* Source of the following picture is www.stock.adobe.com (URL https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313) */
-        background: url("/assets/images/index/hero-image-opt.jpeg") no-repeat center center fixed; 
+        background: url("/assets/images/index/hero-image-opt.jpeg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
-    .footer-components ul, #last-footer-component, #first-footer-component {
+    .footer-components ul,
+    #last-footer-component,
+    #first-footer-component {
         margin: 0;
     }
-    #six-reasons-header{
+    #six-reasons-header {
         margin-top: 3rem;
     }
     .row .first-reasons {
@@ -672,7 +689,7 @@ figcaption {
     }
     .about-heading-section {
         /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-        background: url("/assets/images/about/claudine-and-bonobo-opt.png") no-repeat top center; 
+        background: url("/assets/images/about/claudine-and-bonobo-opt.png") no-repeat top center;
         height: 75vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -699,8 +716,9 @@ figcaption {
         padding: 0 3rem;
     }
     #form-container {
-    min-height: calc(100vh - 10.5rem) /* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
+        min-height: calc(100vh - 10.5rem)/* Used same concept as for responsive font size | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030) */
     }
 }
+
 
 /* /.Media queries */
