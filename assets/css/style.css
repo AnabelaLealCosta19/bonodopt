@@ -666,6 +666,10 @@ figcaption {
     .about-quote-section {
         height: calc(25vh - 4.5rem);
     }
+    .special-quote{
+        font-weight: 300;
+    }
+
     .about-note-section {
         padding: 1rem 2rem;
         margin-bottom: 2rem;
