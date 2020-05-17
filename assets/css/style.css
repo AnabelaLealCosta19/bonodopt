@@ -574,6 +574,7 @@ figcaption {
 
 .about-note-section img {
     padding-top: 1rem;
+    max-height: 22rem;
 }
 
 
