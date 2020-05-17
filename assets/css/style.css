@@ -104,7 +104,6 @@ h5 {
     border-color: rgb(16, 115, 8);
 }
 
-
 /* ./Buttons */
 
 
@@ -407,13 +406,14 @@ button:focus {
     text-decoration: none;
 }
 
-.call-to-action-link:hover {
-    -webkit-transform: scale(1.2);
-    /* Increase size on hover | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/14073498/how-do-i-create-a-change-in-font-size-on-hover-without-realigning-other-text) */
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
+/* Ensures that icon chages color when hovering over div | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/13354157/css-changing-hover-effect-of-icon-font-in-a-link) */
+.adoption-link a:hover .fa-heart {
+    color: rgb(220,20,60)
 }
 
+.donation-link a:hover .fa-coins {
+    color: rgb(249, 232,0)
+}
 
 /* /.Call to action (index)*/
 
