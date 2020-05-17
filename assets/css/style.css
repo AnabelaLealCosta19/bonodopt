@@ -14,6 +14,9 @@
 
 
 /* Body */
+html{
+    scroll-behavior: smooth; /* Smooth scrolling instead of snapping for better UX | source: 'gomakethings' (URL: https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/) */
+}
 
 body{
     padding-top: 2.8rem;
@@ -314,6 +317,7 @@ button:focus {
 }
 
 .arrow-down {
+    color: white;
     font-size: 2rem;
     margin-top: 0.5rem;
     -webkit-text-stroke: 2.5px rgba(29,36,42,0.9); /* Make icon lighter | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/28560118/want-to-make-font-awesome-icons-thinner)*/
@@ -323,6 +327,15 @@ button:focus {
 
 /* /.Callout (index)*/
 
+
+
+/* Intro bonobos (index)*/
+
+.bonobos-container {
+    scroll-margin-top: 2.8rem; /* Prevents from scrolling behind fixed navbar | source: 'gomakethings' (URL: https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/) */
+}
+
+/* /.Intro bonobos (index)*/
 
 
 /* Intro program (index)*/
@@ -589,6 +602,9 @@ figcaption {
     }
     .nav-link {
         font-size: 1.5rem;
+    }
+    .bonobos-container {
+        scroll-margin-top: 4.5rem;
     }
     .call-to-action-link i {
         font-size: 3rem;
