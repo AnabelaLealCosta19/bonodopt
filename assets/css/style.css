@@ -705,6 +705,7 @@ figcaption {
     }
     .program-section h5 {
         margin: 2rem;
+        text-align: center;
     }
     .help-section {
         margin-bottom: 7rem;
