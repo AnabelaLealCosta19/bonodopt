@@ -1,9 +1,21 @@
-# Bonodopt | Make an impact - Adopt a bonobo 
+# Bonodopt 
 
-One or two paragraphs providing an overview of your project.
+![Bonodopt homepage](assets/images/readme/bonodopt-website-opt.png)
 
-Essentially, this part is your sales pitch.
- 
+## Make an impact - Adopt a bonobo 
+
+I have always been greatly fascinated by our closest cousins - the bonobos. Not only do we share **98.7%** of our DNA, but even the social structures and behaviour can remind us of our own. 
+
+The more you learn about them, the more you ask yourself: What makes us human? Why do we consider ourselves different from animals? The ability to learn another language? Bonobo Kanzi learned to communicate with 348 geometric symbols and understands about 3000 spoken English words. Surely not perfect, but still shows the ability to learn our language. Having sex for other reasons than reproduction? I think Bonobos are a step ahead of us there. Is it the use of tools and the ability to domesticate a fire? Well, check out [this](https://www.youtube.com/watch?v=EMbWDRzqNhc). 
+
+Sadly, their population is believed to have declined sharply in the last 30 years. They only live in the Democratic Republic of Congo and the years of civil rest and poverty has made them vulnerable to habitat loss and hunting for bushmeat. 
+
+The website has been created to increase awareness around the endangerement of Bonobos as well as raising funding for those working on the front line. Any visitor can inform himself about bonobos and their current situation, Bonodopt's program and contribute to support their work. While they live far away from us, it is still everybody's duty to look out for the vulnerable between us. I trust that this website is contributing in its own way and increasing the funds needed for their protection. 
+
+While Bonodopt also takes donations, the main focus of the website lies on adopting a bonobo. This is to create a great first experience with the adoption kit and lay the path for further one-time or even monthly donations. Based on this, the website has been called Bonodopt, which is a neologism of bonobo and adopt. 
+
+[Click here](https://anabelalealcosta19.github.io/bonodopt/) to go to Bonodopt's live website. 
+
 ## Content
 
 1. User Experience (UX)
