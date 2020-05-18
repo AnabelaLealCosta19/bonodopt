@@ -99,14 +99,63 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+The content of my website was mainly sourced from [Lola ya Bonobo](https://www.lolayabonobo.org/), the world's only organization to provide a sanctuary for orphaned bonobos. 
+
+Further input has been taken from the following sources: 
+* [WWF Gifts](https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/bonobo.aspx)
+* [World Animal Foundation - Adopt an animal kit](https://adoptananimalkits.ecwid.com/Adopt-A-Bonobo-p86316806)
+* [Wikipedia article "Bonobo"](https://en.wikipedia.org/wiki/Bonobo)
+* [Bonobo Handshake - Website and book](https://www.bonobohandshake.com/?page_id=25)
+* [Wikipedia article "Vanessa Woods"](https://en.wikipedia.org/wiki/Vanessa_Woods)
+* [AZ Quotes](https://www.azquotes.com/author/87796-Claudine_Andre)
+
+Please note that the information from the mentioned sources has been combined and changed as necessary for my project. 
+
+Any other text has been written by me. 
 
 ### Media
-- The photos used in this site were obtained from ...
+
+I exclusively used images as media for my website. Please find all images inclusive their source below: 
+
+Page | Section | Image name(s) | Source | Image URL
+---- | ------- | ------ | ------ | ------
+Index | Callout | (1) hero-image-opt.jpeg, (2) hero-image-tablet.jpg, (3) hero-image-mobile.jpg | [Adobe Stock](https://stock.adobe.com/ie/) *(purchased)* | [here](https://stock.adobe.com/ie/images/bonobo-pan-paniscus-on-a-tree-branch/98710313?asset_id=98710313)
+Index | Intro 'About' | home-claudine-opt-crop.jpg | [IMDb](https://www.imdb.com/?ref_=nv_home) | [here](https://www.imdb.com/title/tt1867988/mediaindex?ref_=tt_mv_close)
+Index | Call to action | home-help-opt-crop.jpg | [Bonobo in Congo](https://www.bonoboincongo.com/) | [here](https://www.bonoboincongo.com/2013/11/09/from-kinshasa-oasis-to-lomami-wilderness-reflections-on-a-visit-with-bonobos/)
+Bonobos | General | map-opt-crop.gif | [Cultural Anthropology](http://culturalanthropology.wikifoundry.com/) | [here](http://culturalanthropology.wikifoundry.com/page/Bonobos+Winter+2011) 
+Bonobos | 6 Reasons why bonobos (Our closest living relative) | (1) our-closest-relative-lg-opt-crop.jpg, (2) our-closest-relative-opt-crop.jpg | [Poland In](https://polandin.com/) | [here](https://polandin.com/38051299/great-escape-chimpanzee-at-large-in-eastern-poland)
+Bonobos | 6 Reasons why bonobos (Females are in charge) | (1) females-are-in-charge-lg-opt-crop.jpg, (2) females-are-in-charge-opt-crop.jpg | [ScienceNews](https://www.sciencenews.org/) | [here](https://www.sciencenews.org/article/pregnant-bonobos-get-little-delivery-help-their-friends) 
+Bonobos | 6 Reasons why bonobos (Tribe of peacemakers) | (1) tribe-of-peacemakers-lg-opt-crop.jpg, (2) tribe-of-peacemakers-opt-crop.jpg | [BBC Worklife](https://www.bbc.com/worklife) | [here](https://www.bbc.com/worklife/article/20180925-with-females-in-charge-bonobo-society-is-more-chilled-out)
+Bonobos | 6 Reasons why bonobos (Social beings) | (1) social-beings-lg-opt-crop.jpg, (2) social-beings-opt-crop.jpg | [EurekAlert](https://www.eurekalert.org/) | [here](https://www.eurekalert.org/multimedia/pub/120113.php)
+Bonobos | 6 Reasons why bonobos (Bonobo handshake| (1) bonobo-handshake-lg-opt-crop.jpg, (2) bonobo-handshake-opt-crop.jpg | [Wallpaper Flare](https://www.wallpaperflare.com/) | [here](https://www.wallpaperflare.com/monkeys-bonobo-animal-ape-wallpaper-vmjl)
+Bonobos | 6 Reasons why bonobos (Highly endangered) | (1) highly-endangered-lg-opt-crop.jpg, (2) highly-endangered-opt-crop.jpg | [global witness](https://www.globalwitness.org/en/) | [here](https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/not-for-sale-salonga/)
+About | Heading | claudine-and-bonobo-opt.png | [PASA](https://pasa.org/) | [here](https://pasa.org/awareness/a-reflection-on-claudine-andre-2/)
+About | Heading | (1) claudine-andre-with-bonobo-family-md-opt-crop.jpg, (2) claudine-andre-with-bonobo-family-sm-opt-crop.jpg | [LaMeuse](https://www.lameuse.be/) | [here](https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos)
+About | Bondopt | sanctuary-opt-crop.jpg | [At home and abroad](https://athomeandabroad.net/) | [here](https://athomeandabroad.net/tag/lola-ya-bonobo-nursery/)
+About | Bondopt | nurses-with-bonobos-opt-crop.jpg | [At home and abroad](https://athomeandabroad.net/) | [here](https://athomeandabroad.net/tag/lola-ya-bonobo-nursery/)
+About | Note | vanessa-woods-opt-crop.jpg | [PBS](https://www.pbs.org/) | [here](https://www.pbs.org/wgbh/nova/evolution/learning-bonobos.html)
+Program | Program (Protect) | (1) bonobos-protect-opt.jpg, (2) bonobos-protect-mobile-opt-crop.jpg | [Lola ya Bonobo (twitter)](https://twitter.com/Lola_ya_Bonobo) | [here](https://twitter.com/Lola_ya_Bonobo/status/1187443642799022082)
+Program | Program (Rescue) | (1) black-market-opt-crop.jpg, (2) black-market-mobile-opt-crop.jpg | [CNN](https://edition.cnn.com/) | [here](https://edition.cnn.com/2013/01/03/world/africa/lola-ya-bonobo-congo/index.html)
+Program | Program (Rehabilitation) | bonobo-sick-opt-crop.jpg | [milwaukee journal sentinel](https://eu.jsonline.com/) | [here](https://eu.jsonline.com/story/news/local/milwaukee/2017/05/10/childrens-hospital-staff-help-save-bonobo/316693001/)
+Program | Program (Rehabilitation) | substitute-mother-opt-crop.jpg | [MONGABAY](https://news.mongabay.com/) | [here](https://news.mongabay.com/2017/05/conservation-lessons-from-the-bonobos/)
+Program | Program (Rehabilitation) | semi-wild-environment-opt-crop.jpg | [The Telegraph](https://www.telegraph.co.uk/) | [here](https://www.telegraph.co.uk/news/earth/earthpicturegalleries/8438057/Lola-ya-Bonobo-sanctuary-in-the-Democratic-Republic-of-Congo.html?image=2)
+Program | Program (Release) | (1) wild-bonobo-opt.jpg, (2) wild-bonobo-mobile-opt-crop.jpg | [PHYS ORG](https://phys.org/) | [here](https://phys.org/news/2017-11-malaria-parasites-wild-bonobos.html)
+Program | Program (Research) | (1) research-opt.jpg, (2) research-opt.jpg | [robertharding](https://www.robertharding.com/home/) | [here](https://www.robertharding.com/?lang=en&page=search&s=bonobo&smode=0&license=2&sortby=0&bgcolour=white&display=5)
+
+The image in the project introduction of my readme file is a screenshot of my own website and therefore has no external source. 
+
+
+
+### Code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I got the inspiration for this project when reading "Bonobo Handshake" by Vanessa Woods. It was a perfect fit for my first Milestone project since it's a topic I'm passionate about and where I just refreshed my knowledge. Furthermore, it was simply a good fit for a static website since it doesn't necessarily require advanced programming to fulfill the user's needs and expectations. 
+
+A special thanks to my mentor [Rahul Lakhanpal](https://github.com/rahulkp220), who has provided me with valuable insights into best practices when building a website and how to create a great UX. I furthermore want to thank the slack community of Code Institute for reviewing my project and providing me with constructive criticism. 
+
+Last but not least, I would like to point to [Lola ya Bonobo](https://www.lolayabonobo.org/). When reading through their website, it becomes very soon clear that they do incredibly valuable work and put so much love into it. If one is considering making a donation, this is a project that I can highly recommend. 
 
 ## Disclaimer
 
