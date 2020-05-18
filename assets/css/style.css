@@ -287,6 +287,10 @@ button:focus {
     text-align: center;
 }
 
+.modal-header span {
+    padding: 1rem;
+}
+
 
 /* /.Modal */
 
