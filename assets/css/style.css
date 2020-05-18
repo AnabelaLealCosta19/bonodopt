@@ -252,6 +252,10 @@ button:focus {
     font-size: 1.1rem;
 }
 
+#first-footer-component a:hover {
+    text-decoration: none;
+}
+
 
 /* Icons with background softly changing color | source: 'Code Institute' (URL: https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/1?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40html%2Bblock%40afee41b412ef4289a600177505f1042f) */
 .social li a i,
