@@ -21,12 +21,17 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 ## Table of Content
 
 1. User Experience (UX) ******** To be done ********
+    - Goals
+        - User
+        - Bonodopt
     - User Stories
-    - Design
+    - Design Choices
+    - Accessibility
+    - Wireframes
 1. Features ******** To be done ********
-    - Common
-    - Page specific
-    - Future considerations
+    - Common features
+    - Page specific features
+    - Features left to implement 
 1. Technologies used
     - Languages
     - Libraries
@@ -45,7 +50,42 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 
 ## UX
+
+## Goals
+
+### User
+
+Bonodopt's website targets the following audience:
+- English speaking
+- Diverse *(gender, age, work, social status, nationality)*, but in private/ free time
+- Want to make an impact/ a good deed
+- Has a heart for animals *(possibly also a fan of bonobos)*
+
+User goals: 
+- Make an impact/good deed through donating towards a Nonprofit organization or charity of my choice.
+- Read more about Bonobos and their current situation.
+- *Possibly: Make an impactful gift*.
+
+Bonodopt is specialized on bonobos and has, therefore, a niche position in the donation sector. Once the user settles on bonobos, Bonodopt's website offers the ability to donate and adopt a bonobo and therefore make a good deed by supporting a valuable project. It furthermore offers a broad overview over bonobos, their situation, Bonodopt as an organization as well as their project. Apart from that, an adoption kit can be sent as a gift if desired. 
+
+### Bonodopt
+
+Bonodopt Goals: 
+- Increase number of donations and adoptions as well as total monetary income
+- Build an online presence and increase reach 
+- Present Bondopt as an organization in a reputable and trustworthy way
+- Long-term retention of users to ensure further or monthly contributions
+
+During the development of this project, each point has been considered to ensure the fulfillment of Bonodopt's goals. 
+
+To increase the funding, the website strives to provide a very positive user experience as well as an emotional response through high-quality images to make the user follow through with his intention to contribute to Bonodopt's project. Furthermore, there has been made a point of focusing the website on "Adopt a bonobo" instead of donations. It's a great middle way between the best- and worst-case scenarios of receiving a donation (e.g. 50 $ monthly contributions vs 10 $ one-time donation). Besides, it's expected to be more convincing as a call to action since it's only a one-time commitment with further value for the user through the adoption kit.
  
+For an increased reach and online presence, the implementation of SEO has been crucial. Important factors were also the ease of use and a reliable layout to present Bonodopt in a trustworthy way and have a throughout positive user experience to convince the user to return to Bonodopt's website at a later moment. 
+
+
+
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -87,9 +127,9 @@ This project uses mainly **HTML5** and **CSS3**. Additionally, **JavaScript** an
 ### Tools 
 
 - [Github](https://github.com/): Hosts the project files and was used to deploy the website to Git Pages.
-- [Gitpod](https://www.gitpod.io/): Provides developing environment to write code and commit changes to Github.
+- [Gitpod](https://www.gitpod.io/): Provides a developing environment to write code and commit changes to Github.
 - [Git](https://git-scm.com/): Used for version control of the project.
-- [Balsamiq](https://balsamiq.com/?gclid=CjwKCAjwh472BRAGEiwAvHVfGsly1Nt9bDZCFUTGCc9I8OfaLtSIcxLhm_WX8911ERsm__luBJslTBoCqgQQAvD_BwE): Used in surface plane (UXD) to plan my project and create wireframes.
+- [Balsamiq](https://balsamiq.com/?gclid=CjwKCAjwh472BRAGEiwAvHVfGsly1Nt9bDZCFUTGCc9I8OfaLtSIcxLhm_WX8911ERsm__luBJslTBoCqgQQAvD_BwE): Used in the surface plane (UXD) to plan my project and create wireframes.
 - [Nu HTML Checker](https://validator.w3.org/nu/): Validated my HTML code.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Validate my CSS code.
 - [FREEFORMATTER](https://www.freeformatter.com/): Indented my HTML, CSS and JS code
