@@ -1,6 +1,6 @@
 # Bonodopt 
 
-![Bonodopt homepage](assets/images/readme/bonodopt-website-opt.png)
+![Bonodopt homepage](assets/images/readme/bonodopt-website-compr.png)
  
 
 ## Make an impact - Adopt a bonobo 
@@ -21,26 +21,26 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 ## Table of Content
 
 1. User Experience (UX) ******** To be done ********
-    1. User Stories
-    1. Design
+    - User Stories
+    - Design
 1. Features ******** To be done ********
-    1. Common
-    1. Page specific
-    1. Future considerations
+    - Common
+    - Page specific
+    - Future considerations
 1. Technologies used
-    1. Languages
-    1. Libraries
-    1. Tools
+    - Languages
+    - Libraries
+    - Tools
 1. Testing ******** To be done ********
 1. Deployment
-    1. Deploy project
-    1. Deployed vs development version
-    1. Run code locally
+    - Deploy project
+    - Deployed vs development version
+    - Run code locally
 1. Credits
-    1. Content
-    1. Media 
-    1. Code 
-    1. Acknowledgements
+    - Content
+    - Media 
+    - Code 
+    - Acknowledgements
 1. Disclaimer
 
 
@@ -97,6 +97,7 @@ This project uses mainly **HTML5** and **CSS3**. Additionally, **JavaScript** an
 - [Scribens.com](https://www.scribens.com/): Checked grammar of website and readme content.
 - [Optimizilla](https://imagecompressor.com/): Optimised images used in project.
 - [Croppola](https://croppola.com/): Cropped images as needed (especially images for smaller devices).
+- [Am I Responsive](http://ami.responsivedesign.is/): Used to display website across devices for screenshot in product introduction.
 - [Tiny PNG](https://tinypng.com/): Additionally compressed images for my project. 
 
 
@@ -211,7 +212,7 @@ Program | Program (Rehabilitation) | semi-wild-environment-opt-crop.jpg | [The T
 Program | Program (Release) | (1) wild-bonobo-opt.jpg, (2) wild-bonobo-mobile-opt-crop.jpg | [PHYS ORG](https://phys.org/) | [here](https://phys.org/news/2017-11-malaria-parasites-wild-bonobos.html)
 Program | Program (Research) | (1) research-opt.jpg, (2) research-opt.jpg | [robertharding](https://www.robertharding.com/home/) | [here](https://www.robertharding.com/?lang=en&page=search&s=bonobo&smode=0&license=2&sortby=0&bgcolour=white&display=5)
 
-The image in the project introduction of my readme file is a screenshot of my own website and therefore has no external source. 
+The image in the project introduction of my readme file is a screenshot of my own website displayed in [Am I Responsive](http://ami.responsivedesign.is/) and therefore has no typical external source. 
 
 
 ### Code
