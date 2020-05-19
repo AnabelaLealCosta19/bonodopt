@@ -22,36 +22,36 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 1. User Experience (UX) 
     - Goals
-        - [User](####-user)
-        - Bonodopt
+        - [User](#user)
+        - [Stakeholder](#stakeholder)
     - User Stories ******** To be done ********
     - Design Choices
-        - Layout ******** To be done ********
-        - Colour scheme ******** To be done ********
-        - Imagery ******** To be done ********
-        - Typography 
-        - Icons
-    - Accessibility
-    - Wireframes
+        - [Layout](#layout) ******** To be done ********
+        - [Colour scheme](#colour-scheme) ******** To be done ********
+        - [Images](#images)
+        - [Typography](#typography) 
+        - [Icons](#icons)
+    - [Accessibility](#accessibility)
+    - [Wireframes](#wireframes)
 1. Features 
     - Common features ******** To be done ********
     - Page specific features ******** To be done ********
     - Features left to implement ******** To be done ********
 1. Technologies used
-    - Languages
-    - Libraries
-    - Tools
+    - [Languages](#languages)
+    - [Libraries](#libraries)
+    - [Tools](#tools)
 1. Testing ******** To be done ********
 1. Deployment
-    - Deploy project
-    - Deployed vs development version
-    - Run code locally
+    - [Deploy project](#deploy-project)
+    - [Deployed vs development version](#deployed-vs-development-version)
+    - [Run code locally](#run-code-locally)
 1. Credits
-    - Content
-    - Media 
-    - Code 
-    - Acknowledgements
-1. Disclaimer
+    - [Content](#content)
+    - [Media](#media) 
+    - [Code](#code) 
+    - [Acknowledgements](#acknowledgements)
+1. [Disclaimer](#disclaimer)
 
 
 ## UX
@@ -63,7 +63,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 Bonodopt's website targets the following audience:
 - English speaking
 - Diverse *(gender, age, work, social status, nationality)*, but in private/ free time
-- Want to make an impact/ a good deed
+- Want to make an impact/ do a good deed
 - Has a heart for animals *(possibly also a fan of bonobos)*
 
 User goals: 
@@ -71,9 +71,9 @@ User goals:
 - Read more about Bonobos and their current situation.
 - *Possibly: Make an impactful gift*.
 
-Bonodopt is specialized on bonobos and has, therefore, a niche position in the donation sector. Once the user settles on bonobos, Bonodopt's website offers the ability to donate and adopt a bonobo and therefore make a good deed by supporting a valuable project. It furthermore offers a broad overview over bonobos, their situation, Bonodopt as an organization as well as their project. Apart from that, an adoption kit can be sent as a gift if desired. 
+Bonodopt is specialized on bonobos and has, therefore, a niche position in the donation sector. Once the user settles on bonobos, Bonodopt's website offers the ability to donate and adopt a bonobo and therefore do a good deed by supporting a valuable project. It furthermore offers a broad overview over bonobos, their situation, Bonodopt as an organization as well as their project. Apart from that, an adoption kit can be sent as a gift if desired. 
 
-#### Bonodopt
+#### Stakeholder
 
 Bonodopt Goals: 
 - Increase number of donations and adoptions as well as total monetary income
@@ -104,7 +104,9 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 #### Colour scheme
 
-#### Imagery
+#### Images
+
+Images play a central role since they create the emotional response needed. All sections have been complemented with a high quality image that fits the context and gives the user an additional sense of understanding. If needed, several crops of the same image have been made to ensure high quality and good positioning. 
 
 #### Typography
 
