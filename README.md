@@ -20,18 +20,18 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 ## Table of Content
 
-1. User Experience (UX) ******** To be done ********
+1. User Experience (UX) 
     - Goals
         - User
         - Bonodopt
-    - User Stories
-    - Design Choices
-    - Accessibility
+    - User Stories ******** To be done ********
+    - Design Choices ******** To be done ********
+    - Accessibility ******** To be done ********
     - Wireframes
-1. Features ******** To be done ********
-    - Common features
-    - Page specific features
-    - Features left to implement 
+1. Features 
+    - Common features ******** To be done ********
+    - Page specific features ******** To be done ********
+    - Features left to implement ******** To be done ********
 1. Technologies used
     - Languages
     - Libraries
@@ -93,6 +93,20 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+### Accessibility
+
+The accessibility of websites is an important factor when planning and creating a project. To ensure accessibility, the following points have been implemented:
+
+* **Navbar:** The active navbar element is not only visually emphasized through styling but also with a hint. The hint "(current)" has been added for screen readers only and, therefore, point out to the user, on which page he's currently on.
+* **Images:** To ensure that any images provided give additional context to the user, the alt attribute has always been included with a short image description. 
+* **Icons:** When using  icons it has been ensured that these are always hidden from screen readers. In cases where icons where not only used for decorative purposes but are needed to be able to use a certain feature or access a certain link, additional information is provided to screen readers only. 
+* **Special components:** All special components, such as the collapse element for mobiles, include the necessary accessibility attributes to make sure that those are always easy to use.
+* **Forms:** In cases where labels for form inputs were not wanted due to design choices, they were still added for screen readers only to ensure accessibility. Furthermore, the "*aria-describedby*" attribute has been added in cases where a hint would come after the related input field.  
+* **Validation:** Custom validation styles were added as native browser defaults are not announced to screen readers.
+
+
+### Wireframes
+
 ### Wireframes
 
 These wireframes were created using [Balsamiq](https://balsamiq.com/?gclid=CjwKCAjwh472BRAGEiwAvHVfGsly1Nt9bDZCFUTGCc9I8OfaLtSIcxLhm_WX8911ERsm__luBJslTBoCqgQQAvD_BwE) during the design and planning process for this project. They have not been amended since the repository has been created and, therefore, display small differences when compared to the live website.
@@ -103,7 +117,6 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/?gclid=CjwKC
 * [What We Do](assets/wireframes/program.pdf)
 * [Form: Adopt a Bonobo](assets/wireframes/adopt.pdf)
 * [Form: Donate](assets/wireframes/donate.pdf)
-
 
 
 ## Features
