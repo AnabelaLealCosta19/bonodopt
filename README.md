@@ -25,8 +25,8 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
         - User
         - Bonodopt
     - User Stories ******** To be done ********
-    - Design Choices ******** To be done ********
-    - Accessibility ******** To be done ********
+    - Design Choices
+    - Accessibility
     - Wireframes
 1. Features 
     - Common features ******** To be done ********
@@ -51,9 +51,9 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 ## UX
 
-## Goals
+### Goals
 
-### User
+#### User
 
 Bonodopt's website targets the following audience:
 - English speaking
@@ -68,7 +68,7 @@ User goals:
 
 Bonodopt is specialized on bonobos and has, therefore, a niche position in the donation sector. Once the user settles on bonobos, Bonodopt's website offers the ability to donate and adopt a bonobo and therefore make a good deed by supporting a valuable project. It furthermore offers a broad overview over bonobos, their situation, Bonodopt as an organization as well as their project. Apart from that, an adoption kit can be sent as a gift if desired. 
 
-### Bonodopt
+#### Bonodopt
 
 Bonodopt Goals: 
 - Increase number of donations and adoptions as well as total monetary income
@@ -83,7 +83,7 @@ To increase the funding, the website strives to provide a very positive user exp
 For an increased reach and online presence, the implementation of SEO has been crucial. Important factors were also the ease of use and a reliable layout to present Bonodopt in a trustworthy way and have a throughout positive user experience to convince the user to return to Bonodopt's website at a later moment. 
 
 
-
+### User stories 
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -92,6 +92,23 @@ In particular, as part of this section we recommend that you provide a list of U
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+### Design Choices
+
+#### Layout
+
+#### Colour scheme
+
+#### Imagery
+
+#### Typography
+
+#### Icons
+
+In the call to action section on the home page, I used icons to signalize that "Adopt a bonobo" and "Sponsor our work" are clickable links by changing their color when hovering. Since this is quite different from the usual links and buttons used throughout this website, it makes them stand out. As the main objective of Bonodopt is to raise funding, this is thought to increase the likelihood to get the user to the form and its submission. 
+
+Icons were furthermore used in the footer to keep it visually clean and create space. This enabled me to provide the user with two different options to get in touch as well as links to 5 different social media accounts without overwhelming him with a busy footer. 
+
 
 ### Accessibility
 
@@ -104,8 +121,6 @@ The accessibility of websites is an important factor when planning and creating 
 * **Forms:** In cases where labels for form inputs were not wanted due to design choices, they were still added for screen readers only to ensure accessibility. Furthermore, the "*aria-describedby*" attribute has been added in cases where a hint would come after the related input field.  
 * **Validation:** Custom validation styles were added as native browser defaults are not announced to screen readers.
 
-
-### Wireframes
 
 ### Wireframes
 
