@@ -431,11 +431,11 @@ button:focus {
 
 /* Ensures that icon changes color when hovering over div | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/13354157/css-changing-hover-effect-of-icon-font-in-a-link) */
 .adoption-link a:hover .fa-heart {
-    color: rgb(220,20,60)
+    color: rgb(220,20,60);
 }
 
 .donation-link a:hover .fa-coins {
-    color: rgb(249, 232,0)
+    color: rgb(249, 232,0);
 }
 
 /* /.Call to action (index)*/

@@ -26,8 +26,8 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
         - [Stakeholder](#stakeholder)
     - User Stories ******** To be done ********
     - Design Choices
-        - [Layout](#layout) ******** To be done ********
-        - [Colour scheme](#colour-scheme) ******** To be done ********
+        - [Layout](#layout)
+        - [Colour scheme](#colour-scheme)
         - [Images](#images)
         - [Typography](#typography) 
         - [Icons](#icons)
@@ -109,6 +109,12 @@ The homepage is set up rather visually with little text to provide a quick overv
 Last but not least, the layout changes depending on the device size to ensure readability and ease of use. 
 
 #### Colour scheme
+
+Besides white and black, the two main colours are an intense green [rgb(16, 115, 8)] and a dark grey [rgba(29, 36, 42], which has been used with different levels of opacity. 
+
+Both colours were selected from the hero image with the colour picker in the browser. Besides providing an appealing contrast, they also create an ideal frame for the content since the colours are repeated throughout most of the images (in the fur of bonobos and nature around them). Furthermore, the use of green is generally a good fit since conventionally used in projects related to nature. It naturally provides the user with the right association to introduce him gently to the topic. To improve readability, a brighter shade of green [rgb(22, 160, 11)] has been used for links. 
+
+The only other colours used are a soft red [rgb(220,20,60)] and slightly golden yellow [rgb(249, 232,0)]. They are used symbolically with the heart and coin icon to enhance further visual incentives. 
 
 #### Images
 
