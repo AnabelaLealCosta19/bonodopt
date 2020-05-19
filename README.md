@@ -22,7 +22,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 1. User Experience (UX) 
     - Goals
-        - User
+        - [User](####-user)
         - Bonodopt
     - User Stories ******** To be done ********
     - Design Choices
