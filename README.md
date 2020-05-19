@@ -26,6 +26,11 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
         - Bonodopt
     - User Stories ******** To be done ********
     - Design Choices
+        - Layout ******** To be done ********
+        - Colour scheme ******** To be done ********
+        - Imagery ******** To be done ********
+        - Typography 
+        - Icons
     - Accessibility
     - Wireframes
 1. Features 
@@ -103,11 +108,18 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 #### Typography
 
+Raleway is a very clean and easy to read font, which gives the website an elegant touch. At the same time, it is not overly prominent, which allows the images to take a more intense effect on the user. The only exception is the "W", which looks very eye-catching and provides modern styling to the navbar and headings, where this letter is heavily used. It gives an additional layer of style that fits into Bonodopt's overall appearance. 
+
+To ensure consistency throughout the page this has been selected as the only font.
+
 #### Icons
 
+Most icons were used to provide visualisation and structure of sections with much content like e.g. "6 Reasons Why Bonobos" and "What Do We Do?". Even though those sections are divided into several subsections, the icons help to further break it down and make it easier to take in. Furthermore, the icons help to reference this content when summarized (e.g. on the home page or on a small device). 
+ 
 In the call to action section on the home page, I used icons to signalize that "Adopt a bonobo" and "Sponsor our work" are clickable links by changing their color when hovering. Since this is quite different from the usual links and buttons used throughout this website, it makes them stand out. As the main objective of Bonodopt is to raise funding, this is thought to increase the likelihood to get the user to the form and its submission. 
 
 Icons were furthermore used in the footer to keep it visually clean and create space. This enabled me to provide the user with two different options to get in touch as well as links to 5 different social media accounts without overwhelming him with a busy footer. 
+
 
 
 ### Accessibility
