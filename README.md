@@ -20,15 +20,18 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 ## Table of Content
 
-1. User Experience (UX)
+1. User Experience (UX) ******** To be done ********
     1. User Stories
     1. Design
-1. Features
+1. Features ******** To be done ********
     1. Common
     1. Page specific
     1. Future considerations
 1. Technologies used
-1. Testing
+    1. Languages
+    1. Libraries
+    1. Tools
+1. Testing ******** To be done ********
 1. Deployment
     1. Deploy project
     1. Deployed vs development version
@@ -72,10 +75,29 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Languages
+This project uses mainly **HTML5** and **CSS3**. Additionally, **JavaScript** and **jquery** from [Bootstrap](https://getbootstrap.com/) has been added to support certain Bootstrap components and its form validation.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### Libraries
+- [Bootstrap](https://getbootstrap.com/): Its grid, components and classes simplify the website structure and add additional responsiveness. 
+- [Favicon.io](https://favicon.io/): Provides favicons to improve website recognition and branding.
+- [Font Awesome](https://fontawesome.com/): Provides icons to simplify and visualise content and creates a better UX.
+- [Google Fonts](https://fonts.google.com/): Used to style the website font.
+
+### Tools 
+
+- [Github](https://github.com/): Hosts the project files and was used to deploy the website to Git Pages.
+- [Gitpod](https://www.gitpod.io/): Provides developing environment to write code and commit changes to Github.
+- [Git](https://git-scm.com/): Used for version control of the project.
+- [Balsamiq](https://balsamiq.com/?gclid=CjwKCAjwh472BRAGEiwAvHVfGsly1Nt9bDZCFUTGCc9I8OfaLtSIcxLhm_WX8911ERsm__luBJslTBoCqgQQAvD_BwE): Used in surface plane (UXD) to plan my project and create wireframes.
+- [Nu HTML Checker](https://validator.w3.org/nu/): Validated my HTML code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Validate my CSS code.
+- [FREEFORMATTER](https://www.freeformatter.com/): Indented my HTML, CSS and JS code
+- [LetterCount](https://www.lettercount.com/): Counted letters of commit messages to ensure they aren't too long.
+- [Scribens.com](https://www.scribens.com/): Checked grammar of website and readme content.
+- [Optimizilla](https://imagecompressor.com/): Optimised images used in project.
+- [Croppola](https://croppola.com/): Cropped images as needed (especially images for smaller devices).
+- [Tiny PNG](https://tinypng.com/): Additionally compressed images for my project. 
 
 
 ## Testing
