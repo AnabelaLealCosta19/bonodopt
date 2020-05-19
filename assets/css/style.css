@@ -345,8 +345,8 @@ button:focus {
     color: white;
     font-size: 2rem;
     margin-top: 0.5rem;
-    -webkit-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
     /* Make icon lighter | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/28560118/want-to-make-font-awesome-icons-thinner)*/
+    -webkit-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
     -moz-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
     -o-text-stroke: 2.5px rgba(29, 36, 42, 0.9);
 }
@@ -429,7 +429,7 @@ button:focus {
     transition: all 0.35s ease-in-out;
 }
 
-/* Ensures that icon chages color when hovering over div | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/13354157/css-changing-hover-effect-of-icon-font-in-a-link) */
+/* Ensures that icon changes color when hovering over div | source: 'stackoverflow' (URL: https://stackoverflow.com/questions/13354157/css-changing-hover-effect-of-icon-font-in-a-link) */
 .adoption-link a:hover .fa-heart {
     color: rgb(220,20,60)
 }

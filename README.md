@@ -1,6 +1,7 @@
 # Bonodopt 
 
 ![Bonodopt homepage](assets/images/readme/bonodopt-website-opt.png)
+ 
 
 ## Make an impact - Adopt a bonobo 
 
@@ -16,11 +17,12 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 
 [Click here](https://anabelalealcosta19.github.io/bonodopt/) to go to Bonodopt's live website. 
 
-## Content
+
+## Table of Content
 
 1. User Experience (UX)
     1. User Stories
-    1. design
+    1. Design
 1. Features
     1. Common
     1. Page specific
@@ -29,6 +31,10 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 1. Testing
 1. Deployment
 1. Credits
+    1. Content
+    1. Media 
+    1. Code 
+    1. Acknowledgements
 1. Disclaimer
 
 
@@ -41,11 +47,14 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
+
 ### Existing Features
+
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -53,8 +62,10 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+
 ### Features Left to Implement
 - Another feature idea
+
 
 ## Technologies Used
 
@@ -83,6 +94,7 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 ## Deployment
 
@@ -113,6 +125,7 @@ Further input has been taken from the following sources:
 Please note that the information from the mentioned sources has been combined and changed as necessary for my project. 
 
 Any other text has been written by me. 
+
 
 ### Media
 
@@ -146,8 +159,22 @@ Program | Program (Research) | (1) research-opt.jpg, (2) research-opt.jpg | [rob
 The image in the project introduction of my readme file is a screenshot of my own website and therefore has no external source. 
 
 
-
 ### Code
+
+Code has been used by me from the following sources: 
+
+Language | Effect | Example | Source | URL
+-------- | ------ | ------- | ------ | ---
+HTML | Vertically align div | about.html, lines 64-66 | [medium](https://medium.com/) | [here](https://medium.com/wdstack/bootstrap-4-vertical-center-1211448a2eff)
+HTML | Connect modal to link | index.html, lines 204-205 + 263 + 316 | [stackoverflow](https://stackoverflow.com/) | [here](https://stackoverflow.com/questions/22565247/bootstrap-modal-link)
+CSS | Full width background-image | style.css, lines 307-313 | [CSS tricks](https://css-tricks.com/) | [here](https://css-tricks.com/perfect-full-page-background-image/)
+CSS | Responsive font-size (applied to font-size but also height of containers/sections) | style.css, lines 322-323 |[stackoverflow](https://stackoverflow.com/) | [here](https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size/39962030)
+CSS | Scrolling smoothly | style.css, lines 19-20 | [Go Make Things](https://gomakethings.com/) |   [here](https://gomakethings.com/smooth-scrolling-links-with-only-css/)
+CSS | Prevent page from scrolling behind fixed navbar | style.css, lines 361-362 | [Go Make Things](https://gomakethings.com/) | [here](https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/)
+CSS | Make icon appear lighter | style.css, lines 348-351 | [stackoverflow](https://stackoverflow.com/) | [here](https://stackoverflow.com/questions/28560118/want-to-make-font-awesome-icons-thinner)
+CSS | Change icon colour when hovering over div (not only link itself) | style.css, lines 432-438 | [stackoverflow](https://stackoverflow.com/) | [here](https://stackoverflow.com/questions/13354157/css-changing-hover-effect-of-icon-font-in-a-link)
+CSS | Icon background softly changing colour | style.css, lines 260-281 | [Code Institute](https://codeinstitute.net/) | [here](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/1?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40html%2Bblock%40afee41b412ef4289a600177505f1042f)
+JS | Form Validation | adopt.html, lines 281-299 | [Bootstrap](https://getbootstrap.com/) | [here](https://getbootstrap.com/docs/4.0/components/forms/?#custom-styles]) *(Forms > Validation > Custom styles)* 
 
 ### Acknowledgements
 
@@ -156,6 +183,7 @@ I got the inspiration for this project when reading "Bonobo Handshake" by Vaness
 A special thanks to my mentor [Rahul Lakhanpal](https://github.com/rahulkp220), who has provided me with valuable insights into best practices when building a website and how to create a great UX. I furthermore want to thank the slack community of Code Institute for reviewing my project and providing me with constructive criticism. 
 
 Last but not least, I would like to point to [Lola ya Bonobo](https://www.lolayabonobo.org/). When reading through their website, it becomes very soon clear that they do incredibly valuable work and put so much love into it. If one is considering making a donation, this is a project that I can highly recommend. 
+
 
 ## Disclaimer
 
