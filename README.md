@@ -121,7 +121,6 @@ In the call to action section on the home page, I used icons to signalize that "
 Icons were furthermore used in the footer to keep it visually clean and create space. This enabled me to provide the user with two different options to get in touch as well as links to 5 different social media accounts without overwhelming him with a busy footer. 
 
 
-
 ### Accessibility
 
 The accessibility of websites is an important factor when planning and creating a project. To ensure accessibility, the following points have been implemented:
