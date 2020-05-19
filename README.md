@@ -30,6 +30,9 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 1. Technologies used
 1. Testing
 1. Deployment
+    1. Deploy project
+    1. Deployed vs development version
+    1. Run code locally
 1. Credits
     1. Content
     1. Media 
@@ -98,15 +101,45 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Deploy project
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+My project has been deployed to GitHub Pages. To do so, I completed the steps below:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Navigated to my repository "bonodopt"
+2. Clicked on **Settings**
+3. Under **GitHub Pages**, I used the **Source** drop-down menu and selected "master branch"
+4. Clicked on **Save**
 
+Once done, GitHub displayed the following message: " Your site is published at https://anabelalealcosta19.github.io/bonodopt/". I clicked on the link and could confirm that the website was successfully deployed. 
+
+*Note: Use relative instead of absolute file paths to ensure that images are being displayed correctly.*
+
+### Deployed vs development version
+
+My Github Pages site is currently being built from the master brand. All changes have been saved, committed and pushed. Therefore, there should be no differences between the deployed and the development version.  
+
+### Run code locally
+
+To run code locally, the remote Github repository needs to be cloned. Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point, including every file and folder of the project. Changes can be pushed to the remote Github repository at any time.
+
+Find below the necessary steps to be able to run the code locally. The default instructions relate to Windows, any differences for Mac and Linux have been added in brackets. 
+
+#### Cloning a repository using the command line
+1. On GitHub, navigate to the main page of the repository.
+1. Under the repository name, click **Clone or download**.
+1. **Clone with HTTPS**: Click on the clipboard symbol beside the web URL to clone the repository using HTTPS. To clone using a SSH key (or certificate issued by the SSH certificate authority), click **Use SSH** and then the clipboard symbol.
+1. Open Git Bash [*Mac & Linux: Open Terminal*].
+1. Change the current working directory to the location you want the cloned directory. 
+1. Type **git clone** and paste the URL you copied in step 3.
+1. Press enter to create the local clone.
+
+#### Cloning a repository to GitHub Desktop
+1. Sign in to GitHub and GitHub Desktop before you start to clone.
+1. On GitHub, navigate to the main page of the repository.
+1. Under the repository name, click **Clone or download**.
+1. **Clone with HTTPS**: Click on **Open in Desktop** to clone the repository and open it in GitHub Desktop.
+1. Click **"Choose..."** and navigate to a local path where you want to clone the repository.
+1. Click **Clone** to create the local clone.
 
 ## Credits
 
