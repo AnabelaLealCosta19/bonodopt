@@ -93,6 +93,18 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+### Wireframes
+
+These wireframes were created using [Balsamiq](https://balsamiq.com/?gclid=CjwKCAjwh472BRAGEiwAvHVfGsly1Nt9bDZCFUTGCc9I8OfaLtSIcxLhm_WX8911ERsm__luBJslTBoCqgQQAvD_BwE) during the design and planning process for this project. They have not been amended since the repository has been created and, therefore, display small differences when compared to the live website.
+
+* [Home](assets/wireframes/home.pdf)
+* [Bonobos](assets/wireframes/about.pdf)
+* [Who We Are](assets/wireframes/about.pdf)
+* [What We Do](assets/wireframes/program.pdf)
+* [Form: Adopt a Bonobo](assets/wireframes/adopt.pdf)
+* [Form: Donate](assets/wireframes/donate.pdf)
+
+
 
 ## Features
 
