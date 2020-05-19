@@ -102,11 +102,17 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 #### Layout
 
+The website is organised in a clean and structured way to suit the broad audience and to draw their attention to the content and images. 
+
+The homepage is set up rather visually with little text to provide a quick overview. The further pages are rich in content, which is organized into different sections. Where needed, background and font colours have been changed to provide additional visual structure. The only exceptions are the forms, which are very simple and clean to avoid any possible distraction from filling out the form. 
+
+Last but not least, the layout changes depending on the device size to ensure readability and ease of use. 
+
 #### Colour scheme
 
 #### Images
 
-Images play a central role since they create the emotional response needed. All sections have been complemented with a high quality image that fits the context and gives the user an additional sense of understanding. If needed, several crops of the same image have been made to ensure high quality and good positioning. 
+Images play a central role since they create the emotional response needed. All sections have been complemented with a high-quality image that fits the context and gives the user an additional sense of understanding. If needed, several crops of the same image have been made to ensure high quality and good positioning. 
 
 #### Typography
 
