@@ -431,7 +431,18 @@ Some elements were not correctly wrapped in a container, which caused performnin
 
 ### Existing bugs
 
-At the moment, no existing bugs have been discovered.
+**Form validation for modal message**
+
+At the final testing stage, I noticed that the modal form is not being validated when submitted. The code for the bootstrap validation has been added to the code and has worked previously. 
+Steps taken:
+- Reviewed code to find issues in code >> No issues found
+- Reviewed example from bootstrap library to spot any differences >> No result
+- Compared current code to code from commit 556e082b5bd1dc0be2c8bced62ef7b10e8177394 
+    - Only difference found: heading has been centered
+    - Removed classes to center the heading >> issue persisted
+- Validation works fine for adopt and donation forms >> cannot be an issue with JavaScript
+
+As the issue was discovered shortly before the project submission, I could , unfortunately, not investigate the issue further. 
 
 ## Deployment
 
