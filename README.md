@@ -49,6 +49,9 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
     - [Libraries](#libraries)
     - [Tools](#tools)
 1. Testing ******** To be done ********
+1. Bugs 
+    - [Fixed bugs](#fixed-bugs)
+    - [Existing bugs](#existing-bugs)
 1. Deployment
     - [Deploy project](#deploy-project)
     - [Deployed vs development version](#deployed-vs-development-version)
@@ -409,6 +412,25 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+
+## Bugs
+
+### Fixed bugs
+
+**Shrinking Navbar**
+
+The navbar worked fine on the desktop, but when on small and medium devices the navbar shrinked when scrolling down. This furthermore only happened on the home page, "Bonobos" and "What We Do".
+
+This makes the navbar hard to use, creates issues with the arrow down icon in the callout section (doesn't only show content but also a bit of callout section) and adds unneccessary and bothersome movement to the website. Overall, this does not provide a positive user experience. 
+
+![Gif: Navbar issue explained](assets/images/readme/navbar-issue-compr.gif)
+
+**Fix implemente:d** Some bootstrap rows were not correctly wrapped inside a container. This was causing some unhandled extra margin on that page as well as the issue with the navbar. Once this has been changed, the navbar worked as previously expected. 
+Some elements were not correctly wrapped in a container, which caused performning issues of the 
+
+### Existing bugs
+
+At the moment, no existing bugs have been discovered.
 
 ## Deployment
 
