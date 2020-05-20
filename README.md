@@ -390,7 +390,8 @@ This project uses mainly **HTML5** and **CSS3**. Additionally, **JavaScript** an
 - [Am I Responsive](http://ami.responsivedesign.is/): Used to display website across devices for screenshot in product introduction.
 - [Tiny PNG](https://tinypng.com/): Additionally compressed images for my project. 
 - [Diagram Editor](https://www.diagrameditor.com/): Used to create the diagrams for my readme.
-
+- [GIF Maker, GIF Editor](https://play.google.com/store/apps/details?id=com.media.zatashima.studio&hl=en_US): Record bug (navbar shrinking when scrolling down) for readme.
+- [EZGIF](https://ezgif.com/): Further compromise file size of gif. 
 
 ## Testing
 
@@ -510,7 +511,7 @@ Bonobos | 6 Reasons why bonobos (Social beings) | (1) social-beings-lg-opt-crop.
 Bonobos | 6 Reasons why bonobos (Bonobo handshake| (1) bonobo-handshake-lg-opt-crop.jpg, (2) bonobo-handshake-opt-crop.jpg | [Wallpaper Flare](https://www.wallpaperflare.com/) | [here](https://www.wallpaperflare.com/monkeys-bonobo-animal-ape-wallpaper-vmjl)
 Bonobos | 6 Reasons why bonobos (Highly endangered) | (1) highly-endangered-lg-opt-crop.jpg, (2) highly-endangered-opt-crop.jpg | [global witness](https://www.globalwitness.org/en/) | [here](https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/not-for-sale-salonga/)
 About | Heading | claudine-and-bonobo-opt.png | [PASA](https://pasa.org/) | [here](https://pasa.org/awareness/a-reflection-on-claudine-andre-2/)
-About | Heading | (1) claudine-andre-with-bonobo-family-md-opt-crop.jpg, (2) claudine-andre-with-bonobo-family-sm-opt-crop.jpg | [LaMeuse](https://www.lameuse.be/) | [here](https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos)
+About | Heading | (1) claudine-andre-with-bonobo-family-md-opt-crop.jpg, (2) claudine-andre-with-bonobo-family-sm-opt-crop.jpg | [BBC Worklife](https://www.bbc.com/worklife) | [here](https://www.bbc.com/worklife/article/20180925-with-females-in-charge-bonobo-society-is-more-chilled-out)
 About | Bondopt | sanctuary-opt-crop.jpg | [At home and abroad](https://athomeandabroad.net/) | [here](https://athomeandabroad.net/tag/lola-ya-bonobo-nursery/)
 About | Bondopt | nurses-with-bonobos-opt-crop.jpg | [At home and abroad](https://athomeandabroad.net/) | [here](https://athomeandabroad.net/tag/lola-ya-bonobo-nursery/)
 About | Note | vanessa-woods-opt-crop.jpg | [PBS](https://www.pbs.org/) | [here](https://www.pbs.org/wgbh/nova/evolution/learning-bonobos.html)

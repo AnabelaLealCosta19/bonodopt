@@ -727,8 +727,8 @@ figcaption {
         margin-top: 2.5rem;
     }
     .about-heading-section {
-        /* Source of the following picture is www.lameuse.be (URL https://www.lameuse.be/160682/article/2017-12-01/carolo-mag-claudine-carolo-du-bout-du-monde-lange-des-bonobos) */
-        background: url("../images/about/claudine-and-bonobo-opt.png") no-repeat top center;
+        /* Source of the following picture is www.bbc.com (URL https://www.bbc.com/worklife/article/20180925-with-females-in-charge-bonobo-society-is-more-chilled-out) */
+        background: url("../images/about/about-image-header-compr.jpg") no-repeat center center;
         height: 75vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
