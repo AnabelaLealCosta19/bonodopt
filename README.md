@@ -91,14 +91,38 @@ For an increased reach and online presence, the implementation of SEO has been c
 
 ### User stories 
 
+- **User 1** ... is new to Bonodopt's website and wants to do a good deed
+    1. I want to quickly gain an overview of the page to see if this website contains the information and services I am looking for.
+    2. I want to easily navigate through the website to quickly find the most interesting content.
+    3. I want to read more about bonobos to understand their personality and current situation.
+    4. I want to review the about page to ensure that this is a serious organisation.
+    5. I want to read more about the program to decide if this is a project I want to support.
+    6. I want to review my options to make a contribution to decide what would be the best fit for me. 
+    7. I want to make a contribution through the website to make a good deed. 
 
+- **User 2** ... wants to learn more about bonobos
+    1. I want to quickly gain an overview of the page to find more information about bonobos.
+    2. I want to easily navigate to the bonobo section to read more about them.
+    3. I want to review details about the owner of the website to verify if it's a legit source.
+    4. I want to read more about their program to know more about the work that is being done to protect bonobos.
+    5. I want to have a look at the linked social media profiles to see if there is further information or images.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- **User 3** ... has adopted a bonobo before and wants to make another contribution.
+    1. I want to quickly review the options to decide whether to make a donation or adopt another bonobo.
+    2. I want to review the requirements and possibilities when making a donation (e.g. minimum amount) to help me make a decision.
+    3. I want to adopt another bonobo to receive another adoption kit. [OR]
+    4. I want to be able to select my preferred options to be able to make a (for me) suitable donation.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- **User 4** ... has adopted a bonobo before and wants to make an impactful gift.
+    1. I want to review the details of adopting a bonobo to decide whether I want to give this as a present.
+    2. I want to quickly navigate to the form to adopt a bonobo.
+    3. I want to have the possibility to mark this contribution as a gift to be able to have it wrapped up and/or sent to the recipient's address.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- **User 5** ... has filled out the form for adoption/donation, but never received an email.
+    1. I want to verify that I was supposed to receive an email by double-checking the form and description of adopt a bonobo/ make a donation.
+    2. I want to find the phone number to be able to discuss this issue on a call.
+    3. I want to have the possibility to write a message to report my current issue (in case I cannot reach anyone via phone or if it's outside the working hours).
+
 
 ### Design Choices
 
