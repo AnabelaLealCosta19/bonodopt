@@ -35,9 +35,15 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
     - [Navigation](#navigation)
     - [Wireframes](#wireframes)
 1. Features 
-    - Common features ******** To be done ********
-    - Page specific features ******** To be done ********
-    - Features left to implement ******** To be done ********
+    - [Common features](#common-features)
+    - Page specific features
+        - Home
+        - Bonobos
+        - About
+        - Program
+        - Adopt
+        - Donate
+    - [Future considerations](#future-considerations)
 1. Technologies used
     - [Languages](#languages)
     - [Libraries](#libraries)
@@ -212,42 +218,72 @@ The features described below are accessible throughout all pages.
         1. What We Do (Program)
         1. Small and medium devices: Adopt Now (Adopt a Bonobo)
         1. Large devices: Adopt Now button (Adopt a Bonobo)
-    - It's a sticky navbar, meaning that the user can directly navigate through the pages, even if at the page bottom.
-    - On small and medium devices, the navbar collapses into a hamburger menu containing elements 1-5.
-    - Adopt Now link on small and medium devices has been styled differently to still make it stand out.
+    - It's a sticky navbar, meaning that the user can always navigate through the pages, even if at the page bottom.
+    - On small and medium devices, the navbar collapses into a hamburger menu (containing elements 1-5) to keep the header clean whilst ensuring ease of use.
+    - Adopt Now link on small and medium devices has been styled differently to still make it stand out to the user.
     - When hovering over navbar elements, the colour slightly changes to signalize that it's clickable (apart from the brand logo).
     - The active page is visualised through brightest font colour (apart from the brand logo).
 
-- **Footer** The footer provides the user with useful links and information
+- **Footer:** The footer provides the user with useful links and information
     - Contact us section
         - Message us
-            - Envelope icon with changing background colour (to indicate that it's clickable)
+            - Envelope icon with changing background colour to indicate that it's clickable
             - When clicked opens a modal to send a message
-            - Send button to submit message
-            - "x" to dismiss modal
-            - Modal includes bootstrap validation to ensure that all required fields have been filled out
+            - Includes a send button to submit the message
+            - Has "x" to dismiss modal even though it closes when clicking anywhere outside of modal
+            - Modal includes bootstrap validation to ensure that all required fields have been filled out correctly by user
         - Call us 
-            - phone icon with changing background colour (to indicate that it's clickable)
-            - When clicked a modal opens with phone number and availability
-            - "x" to dismiss modal
+            - phone icon with changing background colour to indicate that it's clickable
+            - When clicked a modal opens with phone number and availability for the user to call us
+            - Has "x" to dismiss modal even though it closes when clicking anywhere outside of modal
     - Copyright with an indication that the project is for educational purposes only
     - Social links
-        - Social media icons with changing background colour (to indicate that it's clickable)
-        - Opens social media accounts in a new tab
+        - Social media icons with changing background colour to indicate that it's clickable
+        - Opens social media accounts in a new tab to enable user to browse
+
+- **Buttons:** Same styling on buttons provides consistency across the website
+    - All buttons are styled the same way for consistency (only exception: "Learn More" button in intro program)
+    - Buttons slightly change colour when hovering to signalise that it's clickable
+
+- **Horizontal lines:** Provide visual separation of topics and make it easier to take in for the user
 
 
 ### Page specific features
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#### Home
+ 
+- **Callout section:** Callout section makes the first impression and indicates the objective and content of the page to the user
+    - j
 
 
-### Features Left to Implement
-- Another feature idea
+### Future considerations
+
+- **Improve the scrolling behaviour of the arrow icon in the callout section**
+    - When clicking on the arrow down icon in the callout section, the page should slowly scroll down to the bottom (instead of the start of content).  
+    - As soon as the mouse moves, the scrolling behaviour should stop.
+    - The slower scrolling, as well as scrolling to the bottom of the page, improves the UX.
+- **Add conditional links to the intro program section**
+    - Intro Program: Link the tiles/boxes to their respective content in "What We Do".
+    - Since the mobile version uses the collapse feature, the link has to be conditional (depending on the device, the link leads to different sections in code).
+- **Add "other" field to the donation form**
+    - Add "other" field to donation form to enable the user to choose a different donation amount (increases flexibility).
+    - Implement conditional validation: Only if the radio button "other" is selected, the following text field is required. 
+    - Add additional requirements like minimum amount and possibly steps.
+- **Provide feedback to the user when submitting adoption/ donation form** 
+    - Improves UX since the customer can be sure that form submission worked out fine.
+    - Can be achieved through a modal, but requires additional JavaScript to prevent the modal from appearing if form validation fails.
+- **Initiate phone calls on mobile devices**
+    - When clicking on the phone icon in the contact us section in the footer, the user should have the option to directly call the number provided (instead of only viewing it).
+    - Ease of use and improved experience for the user.
+- **Add the possibility to pay directly**
+    - Improved UX as the user doesn't have to wait for email and instructions (contribution is immediately completed).
+    - An important feature for the organisation as they would collect funds more quickly without risk of the user changing his mind.
+- **Add Login**
+    - Donations can be tracked and managed directly through the login page.
+    - Better UX and enforces user retention.
+- **Add FAQs** 
+    - Enables the user to immediately find responses to his questions.
+    - Reduces the amount of messages and calls initiated.
 
 
 ## Technologies Used
