@@ -93,35 +93,35 @@ For an increased reach and online presence, the implementation of SEO has been c
 
 - **User 1** ... is new to Bonodopt's website and wants to do a good deed
     1. I want to quickly gain an overview of the page to see if this website contains the information and services I am looking for.
-    2. I want to easily navigate through the website to quickly find the most interesting content.
-    3. I want to read more about bonobos to understand their personality and current situation.
-    4. I want to review the about page to ensure that this is a serious organisation.
-    5. I want to read more about the program to decide if this is a project I want to support.
-    6. I want to review my options to make a contribution to decide what would be the best fit for me. 
-    7. I want to make a contribution through the website to make a good deed. 
+    1. I want to easily navigate through the website to quickly find the most interesting content.
+    1. I want to read more about bonobos to understand their personality and current situation.
+    1. I want to review the about page to ensure that this is a serious organisation.
+    1. I want to read more about the program to decide if this is a project I want to support.
+    1. I want to review my options to make a contribution to decide what would be the best fit for me. 
+    1. I want to make a contribution through the website to make a good deed. 
 
 - **User 2** ... wants to learn more about bonobos
     1. I want to quickly gain an overview of the page to find more information about bonobos.
-    2. I want to easily navigate to the bonobo section to read more about them.
-    3. I want to review details about the owner of the website to verify if it's a legit source.
-    4. I want to read more about their program to know more about the work that is being done to protect bonobos.
-    5. I want to have a look at the linked social media profiles to see if there is further information or images.
+    1. I want to easily navigate to the bonobo section to read more about them.
+    1. I want to review details about the owner of the website to verify if it's a legit source.
+    1. I want to read more about their program to know more about the work that is being done to protect bonobos.
+    1. I want to have a look at the linked social media profiles to see if there is further information or images.
 
 - **User 3** ... has adopted a bonobo before and wants to make another contribution.
     1. I want to quickly review the options to decide whether to make a donation or adopt another bonobo.
-    2. I want to review the requirements and possibilities when making a donation (e.g. minimum amount) to help me make a decision.
-    3. I want to adopt another bonobo to receive another adoption kit. [OR]
-    4. I want to be able to select my preferred options to be able to make a (for me) suitable donation.
+    1. I want to review the requirements and possibilities when making a donation (e.g. minimum amount) to help me make a decision.
+    1. I want to adopt another bonobo to receive another adoption kit. [OR]
+    1. I want to be able to select my preferred options to be able to make a (for me) suitable donation.
 
 - **User 4** ... has adopted a bonobo before and wants to make an impactful gift.
     1. I want to review the details of adopting a bonobo to decide whether I want to give this as a present.
-    2. I want to quickly navigate to the form to adopt a bonobo.
-    3. I want to have the possibility to mark this contribution as a gift to be able to have it wrapped up and/or sent to the recipient's address.
+    1. I want to quickly navigate to the form to adopt a bonobo.
+    1. I want to have the possibility to mark this contribution as a gift to be able to have it wrapped up and/or sent to the recipient's address.
 
 - **User 5** ... has filled out the form for adoption/donation, but never received an email.
     1. I want to verify that I was supposed to receive an email by double-checking the form and description of adopt a bonobo/ make a donation.
-    2. I want to find the phone number to be able to discuss this issue on a call.
-    3. I want to have the possibility to write a message to report my current issue (in case I cannot reach anyone via phone or if it's outside the working hours).
+    1. I want to find the phone number to be able to discuss this issue on a call.
+    1. I want to have the possibility to write a message to report my current issue (in case I cannot reach anyone via phone or if it's outside the working hours).
 
 
 ### Design Choices
@@ -200,10 +200,43 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/?gclid=CjwKC
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+### Common features
 
-### Existing Features
+The features described below are accessible throughout all pages. 
+
+- **Navbar:** The Navbar allows the user to navigate throughout the pages.
+    - The navbar includes the following elements: 
+        1. Brand logo (Home page)
+        1. Why Bonobos? (Bonobos)
+        1. Who We Are (About)
+        1. What We Do (Program)
+        1. Small and medium devices: Adopt Now (Adopt a Bonobo)
+        1. Large devices: Adopt Now button (Adopt a Bonobo)
+    - It's a sticky navbar, meaning that the user can directly navigate through the pages, even if at the page bottom.
+    - On small and medium devices, the navbar collapses into a hamburger menu containing elements 1-5.
+    - Adopt Now link on small and medium devices has been styled differently to still make it stand out.
+    - When hovering over navbar elements, the colour slightly changes to signalize that it's clickable (apart from the brand logo).
+    - The active page is visualised through brightest font colour (apart from the brand logo).
+
+- **Footer** The footer provides the user with useful links and information
+    - Contact us section
+        - Message us
+            - Envelope icon with changing background colour (to indicate that it's clickable)
+            - When clicked opens a modal to send a message
+            - Send button to submit message
+            - "x" to dismiss modal
+            - Modal includes bootstrap validation to ensure that all required fields have been filled out
+        - Call us 
+            - phone icon with changing background colour (to indicate that it's clickable)
+            - When clicked a modal opens with phone number and availability
+            - "x" to dismiss modal
+    - Copyright with an indication that the project is for educational purposes only
+    - Social links
+        - Social media icons with changing background colour (to indicate that it's clickable)
+        - Opens social media accounts in a new tab
+
+
+### Page specific features
 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
