@@ -48,7 +48,12 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Tools](#tools)
-1. Testing ******** To be done ********
+1. Testing 
+    - [Code Validation](#code-validation)
+    - [Initial Testing](#initial-testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Responsiveness](#responsiveness)
+    - [Other](#other)
 1. Bugs 
     - [Fixed bugs](#fixed-bugs)
     - [Existing bugs](#existing-bugs)
@@ -392,26 +397,74 @@ This project uses mainly **HTML5** and **CSS3**. Additionally, **JavaScript** an
 - [Diagram Editor](https://www.diagrameditor.com/): Used to create the diagrams for my readme.
 - [GIF Maker, GIF Editor](https://play.google.com/store/apps/details?id=com.media.zatashima.studio&hl=en_US): Record bug (navbar shrinking when scrolling down) for readme.
 - [EZGIF](https://ezgif.com/): Further compromise file size of gif. 
+- [Pingdom](https://tools.pingdom.com/): Used to test website page load time online. 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Code Validation
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- CSS3 validation: 
+    - Any errors seem to be related to bootstrap's library, my code itself passes
+    - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanabelalealcosta19.github.io%2Fbonodopt%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- HTML5 validation: 
+    - No errors, only warnings regarding the headings
+    - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanabelalealcosta19.github.io%2Fbonodopt%2F)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+### Initial Testing
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+When initially creating the different pages, I've made sure to test the bootstrap grid before adding any custom styling. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+To do so, I have styled the containers, rows and columns with thick borders in different colours. I then tested the grid on different devices in the Developer Tools (iPhone6/7/8, iPad) as well as by changing the width when in "responsive" mode. Like this, I could make sure that the grid behaves as expected and responsiveness is ensured. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Functionality Testing
+
+- **Navbar**
+    - Navbar elements were tested by clicking on each link from each page on desktop, tablet and mobile device
+    - "Adopt Now" button has been tested from all pages
+    - The hamburger menu appears on small and medium screen sizes and expands to reveal navbar elements when clicked on.
+    - Navbar stays as fixed on all pages across all devices
+
+- **Footer** 
+    - Contact us
+        - The background colour of icons changes the colour as intended (tested across all pages)
+        - When clicking on the icon, the modal opens as intended
+    - Social media links
+        - The background colour of icons changes the colour as intended (tested across all pages)
+
+- **Internal links**
+    - All links within main body of website were checked to ensure its functionality
+    - This has also been tested across different devices
+
+- **Help section on Homepage**
+    - The background colour of both icons change their colour as intended
+
+- **Adopt and Donate Forms** 
+    - Forms were tested to ensure that validation works as intended:
+        - Empty form >> shows as invalid
+        - Partially empty form >> shows as invalid
+        - All fields filled out with letters >> shows as invalid due to validation for email field
+        - All fields filled out as required >> Form worked out find and page was refreshed
+    - This has been tested on different devices to ensure performance
+
+- **Message us Form (Modal)**
+    - Form was tested to ensure that validation works as intended 
+    - Against expectation the form is not being validated, review [existing bugs](#existing-bugs)
+    - Same behaviour was tested across all pages
+
+### Responsiveness
+
+The responsiveness has been tested throughout the project creation on my desktop, in the Developer Tools (iPhone6/7/8, iPad) as well as by changing the width when in "responsive" mode. I furthermore tested my website on my Samsung Galaxy S10 phone without noticing any issues.
+
+A final review of the responsiveness of my website was unfortunately not possible. I left the testing section for the end to ensure that all additional changes have been reviewed, but unfortunately my website has been blocked. I was working on my project on my work computer and being quite close to the deadline, made it impossible for me to oragnize a different device to complete the testing. 
+
+![Website blocked](assets/images/readme/website-blocked.png)
+ 
+### Other
+
+- Website Speed Test 
+    - Performance grade is overall ok, load time 515ms
+    - [Results](https://tools.pingdom.com/#5c8c9677e4400000)
 
 
 ## Bugs
