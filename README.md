@@ -24,7 +24,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
     - Goals
         - [User](#user)
         - [Stakeholder](#stakeholder)
-    - User Stories ******** To be done ********
+    - [User Stories](#user-stories)
     - Design Choices
         - [Layout](#layout)
         - [Colour scheme](#colour-scheme)
@@ -32,6 +32,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
         - [Typography](#typography) 
         - [Icons](#icons)
     - [Accessibility](#accessibility)
+    - [Navigation](#navigation)
     - [Wireframes](#wireframes)
 1. Features 
     - Common features ******** To be done ********
@@ -54,7 +55,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 1. [Disclaimer](#disclaimer)
 
 
-## UX
+## User Experience (UX) 
 
 ### Goals
 
@@ -89,6 +90,7 @@ For an increased reach and online presence, the implementation of SEO has been c
 
 
 ### User stories 
+
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -145,6 +147,19 @@ The accessibility of websites is an important factor when planning and creating 
 * **Special components:** All special components, such as the collapse element for mobiles, include the necessary accessibility attributes to make sure that those are always easy to use.
 * **Forms:** In cases where labels for form inputs were not wanted due to design choices, they were still added for screen readers only to ensure accessibility. Furthermore, the "*aria-describedby*" attribute has been added in cases where a hint would come after the related input field.  
 * **Validation:** Custom validation styles were added as native browser defaults are not announced to screen readers.
+
+
+### Navigation
+
+To ensure that a user can easily navigate between the pages without needing the browser's back button a standard navbar has been added. Furthermore, it has been implemented as a fixed navbar to not only allow the user to take advantage of it from all pages, but also from every page section. 
+
+The navbar is structured as follows: 
+
+![Navbar with content](assets/images/readme/navbar-compr.png)
+
+Additionally, there can be contextual links in their main content to other pages as displayed below:
+
+![Diagram: Linking between pages](assets/images/readme/cross-page-linking-compr.png)
 
 
 ### Wireframes
@@ -204,6 +219,7 @@ This project uses mainly **HTML5** and **CSS3**. Additionally, **JavaScript** an
 - [Croppola](https://croppola.com/): Cropped images as needed (especially images for smaller devices).
 - [Am I Responsive](http://ami.responsivedesign.is/): Used to display website across devices for screenshot in product introduction.
 - [Tiny PNG](https://tinypng.com/): Additionally compressed images for my project. 
+- [Diagram Editor](https://www.diagrameditor.com/): Used to create the diagrams for my readme.
 
 
 ## Testing
