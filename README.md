@@ -39,10 +39,10 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
     - Page specific features
         - [Home](#home)
         - [Bonobos](#bonobos)
-        - About
-        - Program
-        - Adopt
-        - Donate
+        - [About](#about)
+        - [Program](#program)
+        - [Adopt](#adopt)
+        - [Donate](#donate)
     - [Future considerations](#future-considerations)
 1. Technologies used
     - [Languages](#languages)
@@ -251,38 +251,83 @@ The features described below are implemented throughout all pages.
 The home page contains small extracts with call to action buttons or links to lead to the detailed page. This has been implemented to provide the user with a quick overview and to gently guide him to the section of his highest interest. 
  
 - **Callout section:** 
-    - High quality hero image with bonobo 
-        - Softly introduces the user to the topic and objective of the website
+    - High-quality hero image with bonobo 
+        - Softly introduces the user to the topic and objective of the website.
         - The image takes up the whole viewport and is responsive across different devices. 
     - "Adopt Now" button in Callout section
         - Promoting this so prominently increases the chances that the user clicks on it. 
     - Arrow down icon
-        - Indicates to the user that more content is to come
-        - When clicking on it, the page scrolls down until the start of the content to improve the ease of use as well as user experience
+        - Indicates to the user that more content is to come.
+        - When clicking on it, the page scrolls down until the start of the content to improve the ease of use as well as user experience.
 
 - **Intro program:** 
     - Program overview
-        - The areas of the program are simbolized through 5 tiles/ boxes with an icon and a one-word description, which provides a great overview of a fairly detailed topic. 
+        - The areas of the program are symbolised through 5 tiles/ boxes with an icon and a one-word description, which provides a great overview of a fairly detailed topic. 
         - The sixth tile with the question mark has been added for additional visualisation and to enhance the design. To emphasize that this is not part of the program, an opacity of 0.8 has been applied. 
     - Call to action button
         - As the tiles had a green background, the decision was made to choose an inversed style for this specific button. This creates a great contrast while adhering to the overall style of the buttons.       
-        - When hovering over, it gets green as usually and signalizes that it's clickable
+        - When hovering over, it gets green as usually and signalizes that it's clickable.
 
 - **Call to action section:** 
-    - The options "Adopt a Bonobo" and "Sponsor our work" are displayed in a very simple and clean way
+    - The options "Adopt a Bonobo" and "Sponsor our work" are displayed in a very simple and clean way.
     - The icons change colour when hovering over them to signalize that they're a link and enhance visual incentives to click on them. When clicked, the user is guided to the related form for its submission.
 
 #### Bonobos
 
-This page aims to introduce the user to bonobos, their personality and why we should protect them. 
+This page aims to introduce the user to bonobos, their personality, and why we should protect them. 
 
 - **6 Reasons Why** 
     - Images
-        - Information is structured into six blocks with high emphasize on the images to create users compassion and increase its probability to make a contribution
-        - Small and medium devices display the images as rounded to create additional space
+        - Information is structured into six blocks with a high emphasis on the images to create users compassion and increase its probability to make a contribution.
+        - Small and medium devices display the images as rounded to create additional space.
+    - Collapse
+        - On small devices, the content is displayed in an accordion collapse to better structure the disclosure of information (since only one card block is opened at a time). 
+        - This ensures that the user is not being overwhelmed with information and keeps a clean layout. 
+
+#### About 
+
+Here a user can find further information about Bondopt as an organization to assure himself that this is a reputable and trustworthy organisation. 
+
+- **Heading**
+    - The heading consists of an image and a quote to add a personal touch to the about section. 
+    - Instead of assigning a specific size, they share the viewport height to ensure a consistent and responsive look across all devices. 
+   
+#### Program
+
+This page provides the user with more detailed information into what the program does and how he can help Bonodopt to achieve it. 
+
+- **Program section** 
+    - Layout
+        - The information is structured into five blocks with high emphasize on the images. 
+        - The Rehabilitation section has a green background colour to create contrast and visual separation. Since this section has 3 subsections, it is a necessary step to not overwhelm the user. 
+        - Small and medium devices display the images as rounded to create additional space.
+
     - Collapse
         - On small devices the content is displayed in an accordion collapse to better structure the disclosure of information (since only one card block is opened at a time). 
-        - This ensures that the user is not being overwhelmed with informations and keeps a clean layout. 
+        - This keeps a clean layout although a lot of information is provided.
+
+#### Adopt
+
+- **Form** 
+    - Input fields
+        - Placeholder text used instead of labels to reduce the space taken up by the form. Since it's not a complicated form, the use of placeholder text has been considered as acceptable.
+        - Hints have been given to improve user experience.    
+        - Additional options provided: Adopt a bonobo as a gift, maximise its impact and sign up for the newsletter for more flexibility, additional functionality and user retention. 
+    - Validation
+        - Validation provided through Bootstrap for a customized message and styling.
+    - Link to donation: Enable the customer to quickly change his mind and change to donation instead. 
+
+#### Donate
+
+- **Form** 
+    - Input fields
+        - Placeholder text used instead of labels to reduce the space taken up by the form. 
+        - Hints have been given to improve user experience. 
+        - Radio buttons have been used to specify required information. To influence the user, the more positive option (monthly and 50 $) are the first option and automatically pre-selected.
+        - Additional option to sign up for the newsletter provided to improve user retention. 
+    - Validation
+        - Validation provided through Bootstrap for a customized message and styling.
+    - Link to adoption: Enable the customer to quickly change his mind and change to adopt a bonobo instead. 
 
 
 ### Future considerations
