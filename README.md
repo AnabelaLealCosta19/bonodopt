@@ -37,7 +37,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
 1. Features 
     - [Common features](#common-features)
     - Page specific features
-        - Home
+        - [Home](#home)
         - Bonobos
         - About
         - Program
@@ -233,7 +233,7 @@ The features described below are accessible throughout all pages.
             - Has "x" to dismiss modal even though it closes when clicking anywhere outside of modal
             - Modal includes bootstrap validation to ensure that all required fields have been filled out correctly by user
         - Call us 
-            - phone icon with changing background colour to indicate that it's clickable
+            - Phone icon with changing background colour to indicate that it's clickable
             - When clicked a modal opens with phone number and availability for the user to call us
             - Has "x" to dismiss modal even though it closes when clicking anywhere outside of modal
     - Copyright with an indication that the project is for educational purposes only
@@ -251,9 +251,37 @@ The features described below are accessible throughout all pages.
 ### Page specific features
 
 #### Home
+
+The home page contains small extracts from the website's pages. This has been implemented to provide the user with a quick overview and to gently guide him to the section of his highest interest. 
  
-- **Callout section:** Callout section makes the first impression and indicates the objective and content of the page to the user
-    - j
+- **Callout section:** The callout section makes the first impression and indicates the objective and content of the page to the user
+    - High quality hero image with bonobo 
+        - Softly introduces the user to the topic and objective of the website
+        - The image takes up the whole viewport and is responsive across different devices. 
+    - "Adopt Now" button in Callout section
+        - Immediately draws the users attention and defines the goal of the website
+        - Promoting this so prominently increases the chances that the user clicks on it. 
+    - Arrow down icon
+        - Indicates to the user that more content is to come
+        - When clicking on it, the page scrolls down until the start of the content to improve the ease of use as well as user experience
+
+- **Intro bonobos and about** These sections provide only little content to pique the users curiosity for more information.
+    - These are the only sections without a heading to ensure that the user quickly reads over the paragraphs. While they have only little content, they are supposed to draw the users attention and make him click on the button for further information. 
+    - Call to action buttons in both sections provided to bring the user to the related page.
+    
+- **Intro program:** Summary of Bondopts work through icons for quick visualisation
+    - Program overview
+        - The programs areas are simbolized through 5 tiles/ boxes with an icon and a one-word description, which provides a great overview of a fairly detailed topic. 
+        - The sixth tile with the question mark has been added for additional visualisation and to enhance the design. To emphasize that this is not part of the program, an opacity of 0.8 has been applied. 
+    - Call to action button
+        - When clicked, this button brings the user to a more detailed overview.
+        - As the tiles had a green background, the decision was made to choose an inversed style. This creates a great contrast to the tiles while adhering to the overall style of the buttons. 
+        - When hovering over, it gets green as usually and signalizes that it's clickable
+
+- **Call to action section:** Both options are displayed in a very simple and clean way
+    - The options "Adopt a Bonobo" and "Sponsor our work" are displayed in a simple way with one icon each
+    - The icons change colour when hovering over them to signalize that they're a link and enhance visual incentives to click on them
+    - When clicked, the user is guided to the related form for its submission.
 
 
 ### Future considerations
