@@ -38,7 +38,7 @@ While Bonodopt also takes donations, the main focus of the website lies in adopt
     - [Common features](#common-features)
     - Page specific features
         - [Home](#home)
-        - Bonobos
+        - [Bonobos](#bonobos)
         - About
         - Program
         - Adopt
@@ -208,7 +208,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/?gclid=CjwKC
 
 ### Common features
 
-The features described below are accessible throughout all pages. 
+The features described below are implemented throughout all pages. 
 
 - **Navbar:** The Navbar allows the user to navigate throughout the pages.
     - The navbar includes the following elements: 
@@ -218,7 +218,7 @@ The features described below are accessible throughout all pages.
         1. What We Do (Program)
         1. Small and medium devices: Adopt Now (Adopt a Bonobo)
         1. Large devices: Adopt Now button (Adopt a Bonobo)
-    - It's a sticky navbar, meaning that the user can always navigate through the pages, even if at the page bottom.
+    - It's a sticky navbar, meaning that the user can always navigate through the pages, even if currently at the page bottom.
     - On small and medium devices, the navbar collapses into a hamburger menu (containing elements 1-5) to keep the header clean whilst ensuring ease of use.
     - Adopt Now link on small and medium devices has been styled differently to still make it stand out to the user.
     - When hovering over navbar elements, the colour slightly changes to signalize that it's clickable (apart from the brand logo).
@@ -228,8 +228,7 @@ The features described below are accessible throughout all pages.
     - Contact us section
         - Message us
             - Envelope icon with changing background colour to indicate that it's clickable
-            - When clicked opens a modal to send a message
-            - Includes a send button to submit the message
+            - When clicked opens a modal to send a message with send button to submit
             - Has "x" to dismiss modal even though it closes when clicking anywhere outside of modal
             - Modal includes bootstrap validation to ensure that all required fields have been filled out correctly by user
         - Call us 
@@ -245,43 +244,45 @@ The features described below are accessible throughout all pages.
     - All buttons are styled the same way for consistency (only exception: "Learn More" button in intro program)
     - Buttons slightly change colour when hovering to signalise that it's clickable
 
-- **Horizontal lines:** Provide visual separation of topics and make it easier to take in for the user
-
-
 ### Page specific features
 
 #### Home
 
-The home page contains small extracts from the website's pages. This has been implemented to provide the user with a quick overview and to gently guide him to the section of his highest interest. 
+The home page contains small extracts with call to action buttons or links to lead to the detailed page. This has been implemented to provide the user with a quick overview and to gently guide him to the section of his highest interest. 
  
-- **Callout section:** The callout section makes the first impression and indicates the objective and content of the page to the user
+- **Callout section:** 
     - High quality hero image with bonobo 
         - Softly introduces the user to the topic and objective of the website
         - The image takes up the whole viewport and is responsive across different devices. 
     - "Adopt Now" button in Callout section
-        - Immediately draws the users attention and defines the goal of the website
         - Promoting this so prominently increases the chances that the user clicks on it. 
     - Arrow down icon
         - Indicates to the user that more content is to come
         - When clicking on it, the page scrolls down until the start of the content to improve the ease of use as well as user experience
 
-- **Intro bonobos and about** These sections provide only little content to pique the users curiosity for more information.
-    - These are the only sections without a heading to ensure that the user quickly reads over the paragraphs. While they have only little content, they are supposed to draw the users attention and make him click on the button for further information. 
-    - Call to action buttons in both sections provided to bring the user to the related page.
-    
-- **Intro program:** Summary of Bondopts work through icons for quick visualisation
+- **Intro program:** 
     - Program overview
-        - The programs areas are simbolized through 5 tiles/ boxes with an icon and a one-word description, which provides a great overview of a fairly detailed topic. 
+        - The areas of the program are simbolized through 5 tiles/ boxes with an icon and a one-word description, which provides a great overview of a fairly detailed topic. 
         - The sixth tile with the question mark has been added for additional visualisation and to enhance the design. To emphasize that this is not part of the program, an opacity of 0.8 has been applied. 
     - Call to action button
-        - When clicked, this button brings the user to a more detailed overview.
-        - As the tiles had a green background, the decision was made to choose an inversed style. This creates a great contrast to the tiles while adhering to the overall style of the buttons. 
+        - As the tiles had a green background, the decision was made to choose an inversed style for this specific button. This creates a great contrast while adhering to the overall style of the buttons.       
         - When hovering over, it gets green as usually and signalizes that it's clickable
 
-- **Call to action section:** Both options are displayed in a very simple and clean way
-    - The options "Adopt a Bonobo" and "Sponsor our work" are displayed in a simple way with one icon each
-    - The icons change colour when hovering over them to signalize that they're a link and enhance visual incentives to click on them
-    - When clicked, the user is guided to the related form for its submission.
+- **Call to action section:** 
+    - The options "Adopt a Bonobo" and "Sponsor our work" are displayed in a very simple and clean way
+    - The icons change colour when hovering over them to signalize that they're a link and enhance visual incentives to click on them. When clicked, the user is guided to the related form for its submission.
+
+#### Bonobos
+
+This page aims to introduce the user to bonobos, their personality and why we should protect them. 
+
+- **6 Reasons Why** 
+    - Images
+        - Information is structured into six blocks with high emphasize on the images to create users compassion and increase its probability to make a contribution
+        - Small and medium devices display the images as rounded to create additional space
+    - Collapse
+        - On small devices the content is displayed in an accordion collapse to better structure the disclosure of information (since only one card block is opened at a time). 
+        - This ensures that the user is not being overwhelmed with informations and keeps a clean layout. 
 
 
 ### Future considerations
